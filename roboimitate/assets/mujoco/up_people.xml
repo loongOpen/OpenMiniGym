@@ -1,0 +1,148 @@
+<mujoco model="sonnyV4_new_new_new">
+  <visual>
+    <map force="0.1" zfar="30"/>
+    <rgba haze="0.1 0.1 0.1 1"/>
+    <global offwidth="2560" offheight="1440" elevation="-20" azimuth="120"/>
+  </visual>
+  <compiler angle="radian" meshdir="/home/jiao/act-plus-plus/sonnieURDF_upbody/meshes/" autolimits="true"/>
+  <statistic meansize="0.0936198" extent="0.747997" center="1.81022e-05 -0.00200441 0.705746"/>
+  <asset>
+    <mesh name="y3" file="y3.STL"/>
+    <mesh name="y2" file="y2.STL"/>
+    <mesh name="y1" file="y1.STL"/>
+    <mesh name="b1" file="b1.STL" scale="0.95 0.95 0.95"/>
+    <mesh name="zuo1" file="zuo1.STL"/>
+    <mesh name="zuo2" file="zuo2.STL"/>
+    <mesh name="zuo3" file="zuo3.STL"/>
+    <mesh name="zuo4" file="zuo4.STL"/>
+    <mesh name="zuo5" file="zuo5.STL"/>
+    <mesh name="zuo6" file="zuo6.STL"/>
+    <mesh name="zuo7" file="zuo7.STL"/>
+    <mesh name="you1" file="you1.STL"/>
+    <mesh name="you2" file="you2.STL"/>
+    <mesh name="you3" file="you3.STL"/>
+    <mesh name="you4" file="you4.STL"/>
+    <mesh name="you5" file="you5.STL"/>
+    <mesh name="you6" file="you6.STL"/>
+    <mesh name="you7" file="you7.STL"/>
+    <texture type="skybox" builtin="gradient" rgb1=".3 .5 .7" rgb2="0 0 0" width="512" height="512"/>
+    <texture name="body" type="cube" builtin="flat" mark="cross" width="128" height="128"
+             rgb1="0.8 0.6 0.4" rgb2="0.8 0.6 0.4" markrgb="1 1 1" random="0.01"/>
+    <material name="body" texture="body" texuniform="true" rgba="0.8 0.6 .4 1"/>
+    <texture name="grid" type="2d" builtin="checker" width="512" height="512" rgb1=".1 .2 .3" rgb2=".2 .3 .4"/>
+    <material name="grid" texture="grid" texrepeat="1 1" texuniform="true" reflectance=".2"/>
+  </asset>
+  <worldbody>
+    <geom name="floor" size="0 0 .05" type="plane" material="grid" condim="3"/>
+    <light name="spotlight" mode="targetbodycom" target="shoulderPitchLeft" diffuse="1 1 1" specular="1 1 1" pos="0 -6 4" cutoff="30"/>
+    <geom pos="0 0 0.5" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="y3"/>
+    <geom pos="0 0 0.5" type="mesh" rgba="0.15 0.15 0.15 1" mesh="y3"/>
+    <geom pos="0 -0.03965 0.555" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="y2"/>
+    <geom pos="0 -0.03965 0.555" type="mesh" rgba="0.15 0.15 0.15 1" mesh="y2"/>
+    <geom pos="0.03965 0 0.64" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="y1"/>
+    <geom pos="0.03965 0 0.64" type="mesh" rgba="0.15 0.15 0.15 1" mesh="y1"/>
+    <geom pos="0 0 0.837603" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="b1"/>
+    <geom pos="0 0 0.837603" type="mesh" rgba="0.15 0.15 0.15 1" mesh="b1"/>
+    <body name="shoulderPitchLeft" pos="0 0.126624 0.857259" quat="0.976296 0.21644 0 0">
+      <inertial pos="0.00543959 0.0581867 -1.075e-05" quat="0.702364 0.708184 0.0479866 0.0534552" mass="0.771702" diaginertia="0.000690873 0.000645101 0.000404286"/>
+      <joint name="shoulderPitch_Left" pos="0 0 0" axis="0 1 0" range="-2.618 1.047" frictionloss="1"/>
+      <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="zuo1"/>
+      <geom type="mesh" rgba="0.15 0.15 0.15 1" mesh="zuo1"/>
+      <body name="shoulderRollLeft" pos="0.032 0.067 0" quat="0.5373 -0.843391 0 0">
+        <inertial pos="-0.0262127 0.0948729 0.0361399" quat="0.686761 0.616261 0.127504 -0.363763" mass="0.507666" diaginertia="0.00109113 0.000867199 0.000224751"/>
+        <joint name="shoulderRoll_Left" pos="0 0 0" axis="1 0 0" range="0 3.14159" frictionloss="1"/>
+        <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="zuo2"/>
+        <geom type="mesh" rgba="0.15 0.15 0.15 1" mesh="zuo2"/>
+        <body name="shoulderYawLeft" pos="-0.032 0.13653 0.04">
+          <inertial pos="-0.0005818 0.0864646 0.00051497" quat="0.704579 0.701445 0.0736978 -0.0781737" mass="0.469749" diaginertia="0.000826833 0.000818256 0.000167891"/>
+          <joint name="shoulderYaw_Left" pos="0 0 0" axis="0 1 0" range="-1.57 1.57" frictionloss="1"/>
+          <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="zuo3"/>
+          <geom type="mesh" rgba="0.15 0.15 0.15 1" mesh="zuo3"/>
+          <body name="elbowLeft" pos="0 0.11 0.0225303">
+            <inertial pos="-0.00011118 0.0875381 -0.0208559" quat="0.629885 0.776687 -0.00116017 -5.24225e-05" mass="0.446956" diaginertia="0.000436231 0.000422471 0.000174548"/>
+            <joint name="elbow_Left" pos="0 0 0" axis="0 0 1" range="-2.8 0" frictionloss="1"/>
+            <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="zuo4"/>
+            <geom type="mesh" rgba="0.15 0.15 0.15 1" mesh="zuo4"/>
+            <body name="wristYawLeft" pos="0 0.11903 -0.0225002" quat="1 6.10958e-06 2.1022e-10 3.44083e-05">
+              <inertial pos="1.044e-05 0.0558055 0.00019754" quat="0.710407 0.703791 -0.000180412 0.000306517" mass="0.338174" diaginertia="0.00036885 0.000324796 0.000142044"/>
+              <joint name="wristYaw_Left" pos="0 0 0" axis="0 1 0" range="-3.14 3.14" frictionloss="1"/>
+              <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="zuo5"/>
+              <geom type="mesh" rgba="0.15 0.15 0.15 1" mesh="zuo5"/>
+              <body name="wristPitchLeft" pos="0 0.1225 0.0214" quat="1 0 0 -3.44083e-05">
+                <inertial pos="0.00031583 -0.00130083 -0.0211723" quat="0.538215 0.568749 0.415932 0.46244" mass="0.1716" diaginertia="5.30325e-05 5.1461e-05 3.86665e-05"/>
+                <joint name="wristPitch_Left" pos="0 0 0" axis="0 0 1" range="-1.5708 1.5708" frictionloss="1"/>
+                <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="zuo6"/>
+                <geom type="mesh" rgba="0.15 0.15 0.15 1" mesh="zuo6"/>
+                <body name="wristRollLeft" pos="0.023 0 -0.0214" quat="1 0 0 3.44083e-05">
+                  <inertial pos="-0.0210827 0.0189735 0" quat="-0.0672801 0.703899 0.0672801 0.703899" mass="0.0286892" diaginertia="2.026e-05 1.50306e-05 9.43936e-06"/>
+                  <joint name="wristRoll_Left" pos="0 0 0" axis="1 0 0" range="-1.5708 1.5708" frictionloss="1"/>
+                  <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="zuo7"/>
+                  <!-- <geom type="mesh" rgba="0.15 0.15 0.15 1" mesh="zuo7"/> -->
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+    <body name="shoulderPitchRight" pos="0 -0.126624 0.857259" quat="0.976296 -0.21644 0 0">
+      <inertial pos="0.0052405 -0.0581859 -8.72e-06" quat="0.708309 0.702481 -0.0515672 -0.0464641" mass="0.771702" diaginertia="0.000683852 0.000637972 0.000397476"/>
+      <joint name="shoulderPitch_Right" pos="0 0 0" axis="0 1 0" range="-2.618 1.047" frictionloss="1"/>
+      <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="you1"/>
+      <geom type="mesh" rgba="0.15 0.15 0.15 1" mesh="you1"/>
+      <body name="shoulderRollRight" pos="0.032 -0.067 0" quat="0.5373 0.843391 0 0">
+        <inertial pos="-0.0262126 -0.0948397 0.0361368" quat="0.616138 0.686767 0.364057 -0.127228" mass="0.507665" diaginertia="0.000723343 0.000723343 0.000723343"/>
+        <joint name="shoulderRoll_Right" pos="0 0 0" axis="1 0 0" range="-3.14159 0" frictionloss="1"/>
+        <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="you2"/>
+        <geom type="mesh" rgba="0.15 0.15 0.15 1" mesh="you2"/>
+        <body name="shoulderYawRight" pos="-0.032 -0.13653 0.04">
+          <inertial pos="-0.00058316 -0.0864613 0.00047906" quat="0.699425 0.702015 0.0970542 -0.0925184" mass="0.46975" diaginertia="0.000822342 0.000815403 0.000163414"/>
+          <joint name="shoulderYaw_Right" pos="0 0 0" axis="0 1 0" range="-1.57 1.57" frictionloss="1"/>
+          <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="you3"/>
+          <geom type="mesh" rgba="0.15 0.15 0.15 1" mesh="you3"/>
+          <body name="elbowRight" pos="0 -0.11 0.0225303">
+            <inertial pos="-0.00010758 -0.0875003 -0.020856" quat="0.777225 0.629221 -0.000218972 0.00152957" mass="0.446956" diaginertia="0.000431441 0.000417706 0.000171783"/>
+            <joint name="elbow_Right" pos="0 0 0" axis="0 0 1" range="0 2.8" frictionloss="1"/>
+            <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="you4"/>
+            <geom type="mesh" rgba="0.15 0.15 0.15 1" mesh="you4"/>
+            <body name="wristYawRight" pos="0 -0.11903 -0.0225002" quat="1 -6.105e-06 2.08637e-10 -3.41748e-05">
+              <inertial pos="-5.82e-06 -0.0558087 -0.00010517" quat="0.702145 0.712034 0.000264904 -7.63272e-05" mass="0.338174" diaginertia="0.00036777 0.000324756 0.000140984"/>
+              <joint name="wristYaw_Right" pos="0 0 0" axis="0 1 0" range="-3.14 3.14" frictionloss="1"/>
+              <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="you5"/>
+              <geom type="mesh" rgba="0.15 0.15 0.15 1" mesh="you5"/>
+              <body name="wristPitchRight" pos="0 -0.1225 0.0214">
+                <inertial pos="-0.00102886 0.00129153 -0.021174" quat="0.576979 0.559774 0.439335 0.400915" mass="0.1716" diaginertia="5.00959e-05 4.82454e-05 3.82587e-05"/>
+                <joint name="wristPitch_Right" pos="0 0 0" axis="0 0 1" range="-1.5708 1.5708" frictionloss="1"/>
+                <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="you6"/>
+                <geom type="mesh" rgba="0.15 0.15 0.15 1" mesh="you6"/>
+                <body name="wristRollRight" pos="-0.023 0 -0.0214">
+                  <inertial pos="0.0210827 -0.0189735 0" quat="-0.0672801 0.703899 0.0672801 0.703899" mass="0.0286892" diaginertia="2.026e-05 1.50306e-05 9.43936e-06"/>
+                  <joint name="wristRoll_Right" pos="0 0 0" axis="1 0 0" range="-1.5708 1.5708" frictionloss="1"/>
+                  <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="you7"/>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+
+      <actuator>
+        <motor joint="shoulderPitch_Left" gear="1" ctrllimited="true" ctrlrange="-18.0 18.0" forcelimited="true" forcerange="-18.0 18.0"/>
+        <motor joint="shoulderRoll_Left" gear="1" ctrllimited="true" ctrlrange="-18.0 18.0" forcelimited="true" forcerange="-18.0 18.0"/>
+        <motor joint="shoulderYaw_Left" gear="1" ctrllimited="true" ctrlrange="-18.0 18.0" forcelimited="true" forcerange="-18.0 18.0"/>
+        <motor joint="elbow_Left" gear="1" ctrllimited="true" ctrlrange="-18.0 18.0" forcelimited="true" forcerange="-18.0 18.0"/>
+        <motor joint="wristYaw_Left" gear="1" ctrllimited="true" ctrlrange="-18.0 18.0" forcelimited="true" forcerange="-18.0 18.0"/>
+        <motor joint="wristPitch_Left" gear="1" ctrllimited="true" ctrlrange="-18.0 18.0" forcelimited="true" forcerange="-18.0 18.0"/>
+        <motor joint="wristRoll_Left" gear="1" ctrllimited="true" ctrlrange="-18.0 18.0" forcelimited="true" forcerange="-18.0 18.0"/>
+        <motor joint="shoulderPitch_Right" gear="1" ctrllimited="true" ctrlrange="-18.0 18.0" forcelimited="true" forcerange="-18.0 18.0"/>
+        <motor joint="shoulderRoll_Right" gear="1" ctrllimited="true" ctrlrange="-18.0 18.0" forcelimited="true" forcerange="-18.0 18.0"/>
+        <motor joint="shoulderYaw_Right" gear="1" ctrllimited="true" ctrlrange="-18.0 18.0" forcelimited="true" forcerange="-18.0 18.0"/>
+        <motor joint="elbow_Right" gear="1" ctrllimited="true" ctrlrange="-18.0 18.0" forcelimited="true" forcerange="-18.0 18.0"/>
+        <motor joint="wristYaw_Right" gear="1" ctrllimited="true" ctrlrange="-18.0 18.0" forcelimited="true" forcerange="-18.0 18.0"/>
+        <motor joint="wristPitch_Right" gear="1" ctrllimited="true" ctrlrange="-18.0 18.0" forcelimited="true" forcerange="-18.0 18.0"/>
+        <motor joint="wristRoll_Right" gear="1" ctrllimited="true" ctrlrange="-18.0 18.0" forcelimited="true" forcerange="-18.0 18.0"/>
+    </actuator>
+
+</mujoco>

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgpd_image_12_channels_strategy.a  CMakeFiles/gpd_image_12_channels_strategy.dir/src/gpd/descriptor/image_12_channels_strategy.cpp.o
+/usr/bin/ranlib libgpd_image_12_channels_strategy.a

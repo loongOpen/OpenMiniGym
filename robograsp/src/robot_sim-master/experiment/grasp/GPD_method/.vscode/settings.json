@@ -1,0 +1,20 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ixxuan/Project/dog_arm/devel/lib/python3/dist-packages",
+        "/home/ixxuan/ws_moveit/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/opt/openrobots/lib/python3.8/site-packages",
+        "/raisim/linux/lib"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ixxuan/Project/dog_arm/devel/lib/python3/dist-packages",
+        "/home/ixxuan/ws_moveit/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/opt/openrobots/lib/python3.8/site-packages",
+        "/raisim/linux/lib"
+    ],
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp"
+    }
+}

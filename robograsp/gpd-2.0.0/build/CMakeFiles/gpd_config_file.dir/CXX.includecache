@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/gpd/util/config_file.h
+fstream
+-
+iostream
+-
+map
+-
+sstream
+-
+string
+-
+typeinfo
+-
+vector
+-
+
+/home/jiao/catkin_arm/gpd-2.0.0/src/gpd/util/config_file.cpp
+gpd/util/config_file.h
+-
+

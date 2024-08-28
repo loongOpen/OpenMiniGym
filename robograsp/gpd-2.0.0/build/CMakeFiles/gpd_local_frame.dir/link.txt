@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgpd_local_frame.a  CMakeFiles/gpd_local_frame.dir/src/gpd/candidate/local_frame.cpp.o
+/usr/bin/ranlib libgpd_local_frame.a

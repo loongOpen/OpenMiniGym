@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgpd_plot.a  CMakeFiles/gpd_plot.dir/src/gpd/util/plot.cpp.o
+/usr/bin/ranlib libgpd_plot.a

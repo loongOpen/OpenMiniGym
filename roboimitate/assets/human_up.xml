@@ -1,0 +1,150 @@
+<mujocoinclude>
+  <body name="human_up" pos="0 0 -0.4" quat="1 0 0 0">
+    <!-- <geom pos="0 0 0.5" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="y3"/>
+    <geom pos="0 0 0.5" type="mesh" rgba="0.15 0.15 0.15 1" mesh="y3"/>
+    <geom pos="0 -0.03965 0.555" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="y2"/>
+    <geom pos="0 -0.03965 0.555" type="mesh" rgba="0.15 0.15 0.15 1" mesh="y2"/>
+    <geom pos="0.03965 0 0.64" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="y1"/>
+    <geom pos="0.03965 0 0.64" type="mesh" rgba="0.15 0.15 0.15 1" mesh="y1"/>
+    <geom pos="0 0 0.837603" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="b1"/>
+    <geom pos="0 0 0.837603" type="mesh" rgba="0.15 0.15 0.15 1" mesh="b1"/> -->
+    <body name="shoulderPitchLeft" pos="0 0.126624 0.857259" quat="0.976296 0.21644 0 0">
+      <inertial pos="0.00543959 0.0581867 -1.075e-05" quat="0.702364 0.708184 0.0479866 0.0534552" mass="0.771702" diaginertia="0.000690873 0.000645101 0.000404286"/>
+      <joint name="shoulderPitch_Left" pos="0 0 0" axis="0 1 0" limited="true" range="-2.618 1.047" frictionloss="20"/>
+      <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="zuo1"/>
+      <geom type="mesh" rgba="0.15 0.15 0.15 1" mesh="zuo1"/>
+      <body name="shoulderRollLeft" pos="0.032 0.067 0" quat="0.5373 -0.843391 0 0">
+        <inertial pos="-0.0262127 0.0948729 0.0361399" quat="0.686761 0.616261 0.127504 -0.363763" mass="0.507666" diaginertia="0.00109113 0.000867199 0.000224751"/>
+        <joint name="shoulderRoll_Left" pos="0 0 0" axis="1 0 0" limited="true" range="0 3.14159" frictionloss="20"/>
+        <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="zuo2"/>
+        <geom type="mesh" rgba="0.15 0.15 0.15 1" mesh="zuo2"/>
+        <body name="shoulderYawLeft" pos="-0.032 0.13653 0.04">
+          <inertial pos="-0.0005818 0.0864646 0.00051497" quat="0.704579 0.701445 0.0736978 -0.0781737" mass="0.469749" diaginertia="0.000826833 0.000818256 0.000167891"/>
+          <joint name="shoulderYaw_Left" pos="0 0 0" axis="0 1 0" limited="true" range="-1.57 1.57" frictionloss="20"/>
+          <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="zuo3"/>
+          <geom type="mesh" rgba="0.15 0.15 0.15 1" mesh="zuo3"/>
+          <body name="elbowLeft" pos="0 0.11 0.0225303">
+            <inertial pos="-0.00011118 0.0875381 -0.0208559" quat="0.629885 0.776687 -0.00116017 -5.24225e-05" mass="0.446956" diaginertia="0.000436231 0.000422471 0.000174548"/>
+            <joint name="elbow_Left" pos="0 0 0" axis="0 0 1" limited="true" range="-2.8 0" frictionloss="20"/>
+            <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="zuo4"/>
+            <geom type="mesh" rgba="0.15 0.15 0.15 1" mesh="zuo4"/>
+            <body name="wristYawLeft" pos="0 0.11903 -0.0225002" quat="1 6.10958e-06 2.1022e-10 3.44083e-05">
+              <inertial pos="1.044e-05 0.0558055 0.00019754" quat="0.710407 0.703791 -0.000180412 0.000306517" mass="0.338174" diaginertia="0.00036885 0.000324796 0.000142044"/>
+              <joint name="wristYaw_Left" pos="0 0 0" axis="0 1 0" limited="true" range="-3.14 3.14" frictionloss="20"/>
+              <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="zuo5"/>
+              <geom type="mesh" rgba="0.15 0.15 0.15 1" mesh="zuo5"/>
+              <body name="wristPitchLeft" pos="0 0.1225 0.0214" quat="1 0 0 -3.44083e-05">
+                <inertial pos="0.00031583 -0.00130083 -0.0211723" quat="0.538215 0.568749 0.415932 0.46244" mass="0.1716" diaginertia="5.30325e-05 5.1461e-05 3.86665e-05"/>
+                <joint name="wristPitch_Left" pos="0 0 0" axis="0 0 1" limited="true" range="-1.5708 1.5708" frictionloss="20"/>
+                <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="zuo6"/>
+                <geom type="mesh" rgba="0.15 0.15 0.15 1" mesh="zuo6"/>
+                <body name="wristRollLeft" pos="0.023 0 -0.0214" quat="1 0 0 3.44083e-05">
+                  <inertial pos="-0.0210827 0.0189735 0" quat="-0.0672801 0.703899 0.0672801 0.703899" mass="0.0286892" diaginertia="2.026e-05 1.50306e-05 9.43936e-06"/>
+                  <joint name="wristRoll_Left" pos="0 0 0" axis="1 0 0" limited="true" range="-1.5708 1.5708" frictionloss="20"/>
+                  <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="zuo7"/>
+                  <!-- <geom type="mesh" rgba="0.15 0.15 0.15 1" mesh="zuo7"/> -->
+                  <body name="vx300s_left/gripper_link" pos="-0.025 0.02 0" quat="0.5 0.5 0.5 0.5">
+                                <body name="vx300s_left/camera_focus" pos="0.15 0 0.01">
+                                    <site pos="0 0 0" size="0.01" type="sphere" name="left_cam_focus" rgba="0 0 1 0"/>
+                                </body>
+                                <site pos="0.15 0 0" size="0.003 0.003 0.03" type="box" name="cali_left_site1" rgba="0 0 1 0"/>
+                                <site pos="0.15 0 0" size="0.003 0.03 0.003" type="box" name="cali_left_site2" rgba="0 0 1 0"/>
+                                <site pos="0.15 0 0" size="0.03 0.003 0.003" type="box" name="cali_left_site3" rgba="0 0 1 0"/>
+                                <camera name="left_wrist" pos="-0.1 0 0.16" fovy="20" mode="fixed" euler="0 -1.05 -1.5707" />
+                                <inertial pos="0.0395662 -2.56311e-07 0.00400649" quat="0.62033 0.619916 -0.339682 0.339869" mass="0.251652" diaginertia="0.000689546 0.000650316 0.000468142" />
+                              <!-- 多余手腕 <joint name="vx300s_left/wrist_rotate" pos="0 0 0" axis="1 0 0" limited="true" range="-3.14158 3.14158" frictionloss="30" />-->
+                                <geom pos="-0.02 0 0" quat="0.707107 0 0 0.707107" type="mesh" mesh="vx300s_7_gripper" name="vx300s_left/7_gripper" />
+                                <geom pos="-0.020175 0 0" quat="0.707107 0 0 0.707107" type="mesh" mesh="vx300s_9_gripper_bar" name="vx300s_left/9_gripper_bar" />
+                                <body name="vx300s_left/gripper_prop_link" pos="0.0485 0 0">
+                                    <inertial pos="0.002378 2.85e-08 0" quat="0 0 0.897698 0.440611" mass="0.008009" diaginertia="4.2979e-06 2.8868e-06 1.5314e-06" />
+                                    <geom pos="-0.0685 0 0" quat="0.707107 0 0 0.707107" type="mesh" mesh="vx300s_8_gripper_prop" name="vx300s_left/8_gripper_prop" />
+                                </body>
+                                <body name="vx300s_left/left_finger_link" pos="0.0687 0 0">
+                                    <inertial pos="0.017344 -0.0060692 0" quat="0.449364 0.449364 -0.54596 -0.54596" mass="0.034796" diaginertia="2.48003e-05 1.417e-05 1.20797e-05" />
+                                    <joint name="vx300s_left/left_finger" pos="0 0 0" axis="0 1 0" type="slide" limited="true" range="0.021 0.065" frictionloss="5" />
+                                    <geom condim="4" solimp="2 1 0.01" solref="0.01 1" friction="1 0.005 0.0001" pos="0.005 -0.052 0" euler="3.14 1.57 0" type="mesh" mesh="vx300s_10_gripper_finger_left" name="vx300s_left/10_left_gripper_finger"/>
+                                </body>
+                                <body name="vx300s_left/right_finger_link" pos="0.0687 0 0">
+                                    <inertial pos="0.017344 0.0060692 0" quat="0.44937 -0.44937 0.545955 -0.545955" mass="0.034796" diaginertia="2.48002e-05 1.417e-05 1.20798e-05" />
+                                    <joint name="vx300s_left/right_finger" pos="0 0 0" axis="0 1 0" type="slide" limited="true" range="-0.065 -0.021" frictionloss="5" />
+                                    <geom condim="4" solimp="2 1 0.01" solref="0.01 1" friction="1 0.005 0.0001" pos="0.005 0.052 0" euler="3.14 1.57 0" type="mesh" mesh="vx300s_10_gripper_finger_right" name="vx300s_left/10_right_gripper_finger"/>
+                                </body>
+                    </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+    <body name="shoulderPitchRight" pos="0 -0.126624 0.857259" quat="0.976296 -0.21644 0 0">
+      <inertial pos="0.0052405 -0.0581859 -8.72e-06" quat="0.708309 0.702481 -0.0515672 -0.0464641" mass="0.771702" diaginertia="0.000683852 0.000637972 0.000397476"/>
+      <joint name="shoulderPitch_Right" pos="0 0 0" axis="0 1 0" limited="true" range="-2.618 1.047" frictionloss="20"/>
+      <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="you1"/>
+      <geom type="mesh" rgba="0.15 0.15 0.15 1" mesh="you1"/>
+      <body name="shoulderRollRight" pos="0.032 -0.067 0" quat="0.5373 0.843391 0 0">
+        <inertial pos="-0.0262126 -0.0948397 0.0361368" quat="0.616138 0.686767 0.364057 -0.127228" mass="0.507665" diaginertia="0.000723343 0.000723343 0.000723343"/>
+        <joint name="shoulderRoll_Right" pos="0 0 0" axis="1 0 0" limited="true" range="-3.14159 0" frictionloss="20"/>
+        <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="you2"/>
+        <geom type="mesh" rgba="0.15 0.15 0.15 1" mesh="you2"/>
+        <body name="shoulderYawRight" pos="-0.032 -0.13653 0.04">
+          <inertial pos="-0.00058316 -0.0864613 0.00047906" quat="0.699425 0.702015 0.0970542 -0.0925184" mass="0.46975" diaginertia="0.000822342 0.000815403 0.000163414"/>
+          <joint name="shoulderYaw_Right" pos="0 0 0" axis="0 1 0" limited="true" range="-1.57 1.57" frictionloss="20"/>
+          <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="you3"/>
+          <geom type="mesh" rgba="0.15 0.15 0.15 1" mesh="you3"/>
+          <body name="elbowRight" pos="0 -0.11 0.0225303">
+            <inertial pos="-0.00010758 -0.0875003 -0.020856" quat="0.777225 0.629221 -0.000218972 0.00152957" mass="0.446956" diaginertia="0.000431441 0.000417706 0.000171783"/>
+            <joint name="elbow_Right" pos="0 0 0" axis="0 0 1" limited="true" range="0 2.8" frictionloss="20"/>
+            <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="you4"/>
+            <geom type="mesh" rgba="0.15 0.15 0.15 1" mesh="you4"/>
+            <body name="wristYawRight" pos="0 -0.11903 -0.0225002" quat="1 -6.105e-06 2.08637e-10 -3.41748e-05">
+              <inertial pos="-5.82e-06 -0.0558087 -0.00010517" quat="0.702145 0.712034 0.000264904 -7.63272e-05" mass="0.338174" diaginertia="0.00036777 0.000324756 0.000140984"/>
+              <joint name="wristYaw_Right" pos="0 0 0" axis="0 1 0" limited="true" range="-3.14 3.14" frictionloss="20"/>
+              <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="you5"/>
+              <geom type="mesh" rgba="0.15 0.15 0.15 1" mesh="you5"/>
+              <body name="wristPitchRight" pos="0 -0.1225 0.0214">
+                <inertial pos="-0.00102886 0.00129153 -0.021174" quat="0.576979 0.559774 0.439335 0.400915" mass="0.1716" diaginertia="5.00959e-05 4.82454e-05 3.82587e-05"/>
+                <joint name="wristPitch_Right" pos="0 0 0" axis="0 0 1" limited="true" range="-1.5708 1.5708" frictionloss="20"/>
+                <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="you6"/>
+                <geom type="mesh" rgba="0.15 0.15 0.15 1" mesh="you6"/>
+                <body name="wristRollRight" pos="-0.023 0 -0.0214">
+                  <inertial pos="0.0210827 -0.0189735 0" quat="-0.0672801 0.703899 0.0672801 0.703899" mass="0.0286892" diaginertia="2.026e-05 1.50306e-05 9.43936e-06"/>
+                  <joint name="wristRoll_Right" pos="0 0 0" axis="1 0 0" limited="true" range="-1.5708 1.5708" frictionloss="20"/>
+                  <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.15 0.15 0.15 1" mesh="you7"/>
+                  <body name="vx300s_right/gripper_link" pos="0.025 -0.02 0" quat="0.5 -0.5 0.5 -0.5">
+                                <body name="vx300s_right/camera_focus" pos="0.15 0 0.01" >
+                                    <site pos="0 0 0" size="0.01" type="sphere" name="right_cam_focus" rgba="0 0 1 0"/>
+                                </body>
+                                <site pos="0.15 0 0" size="0.003 0.003 0.03" type="box" name="cali_right_site1" rgba="0 0 1 0"/>
+                                <site pos="0.15 0 0" size="0.003 0.03 0.003" type="box" name="cali_right_site2" rgba="0 0 1 0"/>
+                                <site pos="0.15 0 0" size="0.03 0.003 0.003" type="box" name="cali_right_site3" rgba="0 0 1 0"/>
+                                <camera name="right_wrist" pos="-0.1 0 0.16" fovy="20" mode="fixed" euler="0 -1.05 -1.5707" />
+                                <inertial pos="0.0395662 -2.56311e-07 0.00400649" quat="0.62033 0.619916 -0.339682 0.339869" mass="0.251652" diaginertia="0.000689546 0.000650316 0.000468142" /> 
+                              <!-- 多余手腕 <joint name="vx300s_right/wrist_rotate" pos="0 0 0" axis="1 0 0" limited="true" range="-3.14158 3.14158" frictionloss="5" /> -->
+                                <geom pos="-0.02 0 0" quat="0.707107 0 0 0.707107" type="mesh" mesh="vx300s_7_gripper" name="vx300s_right/7_gripper" />
+                                <geom pos="-0.020175 0 0" quat="0.707107 0 0 0.707107" type="mesh" mesh="vx300s_9_gripper_bar" name="vx300s_right/9_gripper_bar" />
+                                <body name="vx300s_right/gripper_prop_link" pos="0.0485 0 0">
+                                    <inertial pos="0.002378 2.85e-08 0" quat="0 0 0.897698 0.440611" mass="0.008009" diaginertia="4.2979e-06 2.8868e-06 1.5314e-06" />
+                                    <geom pos="-0.0685 0 0" quat="0.707107 0 0 0.707107" type="mesh" mesh="vx300s_8_gripper_prop" name="vx300s_right/8_gripper_prop" />
+                                </body>
+                                <body name="vx300s_right/left_finger_link" pos="0.0687 0 0">
+                                    <inertial pos="0.017344 -0.0060692 0" quat="0.449364 0.449364 -0.54596 -0.54596" mass="0.034796" diaginertia="2.48003e-05 1.417e-05 1.20797e-05" />
+                                    <joint name="vx300s_right/left_finger" pos="0 0 0" axis="0 1 0" type="slide" limited="true" range="0.021 0.065" frictionloss="5" />
+                                    <geom condim="4" solimp="2 1 0.01" solref="0.01 1" friction="1 0.005 0.0001" pos="0.005 -0.052 0" euler="3.14 1.57 0" type="mesh" mesh="vx300s_10_gripper_finger_left" name="vx300s_right/10_left_gripper_finger"/>
+                                </body>
+                                <body name="vx300s_right/right_finger_link" pos="0.0687 0 0">
+                                    <inertial pos="0.017344 0.0060692 0" quat="0.44937 -0.44937 0.545955 -0.545955" mass="0.034796" diaginertia="2.48002e-05 1.417e-05 1.20798e-05" />
+                                    <joint name="vx300s_right/right_finger" pos="0 0 0" axis="0 1 0" type="slide" limited="true" range="-0.065 -0.021" frictionloss="5" />
+                                    <geom condim="4" solimp="2 1 0.01" solref="0.01 1" friction="1 0.005 0.0001" pos="0.005 0.052 0" euler="3.14 1.57 0" type="mesh" mesh="vx300s_10_gripper_finger_right" name="vx300s_right/10_right_gripper_finger"/>
+                                </body>
+                    </body>
+
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+  </body>
+</mujocoinclude>

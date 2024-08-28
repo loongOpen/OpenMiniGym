@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgpd_sequential_importance_sampling.a  CMakeFiles/gpd_sequential_importance_sampling.dir/src/gpd/sequential_importance_sampling.cpp.o
+/usr/bin/ranlib libgpd_sequential_importance_sampling.a

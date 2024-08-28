@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgpd_image_generator.a  CMakeFiles/gpd_image_generator.dir/src/gpd/descriptor/image_generator.cpp.o
+/usr/bin/ranlib libgpd_image_generator.a

@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="webots_ros" type="webots_ros_real" name="webots_ros_real" output="screen">
+        <param name="ip_addr" type="string" value="192.168.1.202"/>
+  	    <param name="udp_port" value="3333" type="int"/>
+    </node>
+
+</launch>

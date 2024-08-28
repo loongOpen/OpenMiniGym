@@ -1,0 +1,50 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ixxuan/Project/dog_arm/devel/include/**",
+        "/home/ixxuan/ws_moveit/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/ixxuan/ws_moveit/src/moveit/moveit_planners/chomp/chomp_motion_planner/include/**",
+        "/home/ixxuan/Project/dog_arm/src/ur5-gazebo-grasping-master/find_object_2d/include/**",
+        "/home/ixxuan/Project/dog_arm/src/ur5-gazebo-grasping-master/ur5-gazebo-grasping/gazebo_grasp_plugin/include/**",
+        "/home/ixxuan/Project/dog_arm/src/ur5-gazebo-grasping-master/ur5-gazebo-grasping/gazebo_state_plugins/include/**",
+        "/home/ixxuan/Project/dog_arm/src/ur5-gazebo-grasping-master/ur5-gazebo-grasping/gazebo_test_tools/include/**",
+        "/home/ixxuan/Project/dog_arm/src/ur5-gazebo-grasping-master/ur5-gazebo-grasping/gazebo_version_helpers/include/**",
+        "/home/ixxuan/Project/dog_arm/src/ur5-gazebo-grasping-master/ur5-gazebo-grasping/gazebo_world_plugin_loader/include/**",
+        "/home/ixxuan/ws_moveit/src/geometric_shapes/include/**",
+        "/home/ixxuan/Project/dog_arm/src/gpd_ros/include/**",
+        "/home/ixxuan/ws_moveit/src/moveit/moveit_planners/chomp/chomp_interface/include/**",
+        "/home/ixxuan/ws_moveit/src/moveit_resources/prbt_ikfast_manipulator_plugin/include/**",
+        "/home/ixxuan/ws_moveit/src/moveit/moveit_ros/benchmarks/include/**",
+        "/home/ixxuan/ws_moveit/src/moveit/moveit_plugins/moveit_ros_control_interface/include/**",
+        "/home/ixxuan/ws_moveit/src/moveit/moveit_ros/move_group/include/**",
+        "/home/ixxuan/ws_moveit/src/moveit/moveit_ros/occupancy_map_monitor/include/**",
+        "/home/ixxuan/ws_moveit/src/moveit/moveit_ros/robot_interaction/include/**",
+        "/home/ixxuan/ws_moveit/src/moveit/moveit_ros/moveit_servo/include/**",
+        "/home/ixxuan/ws_moveit/src/moveit/moveit_setup_assistant/include/**",
+        "/home/ixxuan/ws_moveit/src/moveit/moveit_plugins/moveit_simple_controller_manager/include/**",
+        "/home/ixxuan/ws_moveit/src/moveit_visual_tools/include/**",
+        "/home/ixxuan/Project/dog_arm/src/general-message-pkgs-master/object_msgs_tools/include/**",
+        "/home/ixxuan/ws_moveit/src/moveit/moveit_planners/pilz_industrial_motion_planner/include/**",
+        "/home/ixxuan/ws_moveit/src/moveit/moveit_planners/pilz_industrial_motion_planner_testutils/include/**",
+        "/home/ixxuan/Project/dog_arm/src/ur5-gazebo-grasping-master/ur5-gazebo-grasping/roboticsgroup_gazebo_plugins/include/**",
+        "/home/ixxuan/ws_moveit/src/rviz_visual_tools/include/**",
+        "/home/ixxuan/ws_moveit/src/srdfdom/include/**",
+        "/home/ixxuan/Project/dog_arm/src/ur5-gazebo-grasping-master/ur5-gazebo-grasping/ultronv0230725_b/include/**",
+        "/home/ixxuan/Project/dog_arm/src/ur5-gazebo-grasping-master/universal_robot/ur_kinematics/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

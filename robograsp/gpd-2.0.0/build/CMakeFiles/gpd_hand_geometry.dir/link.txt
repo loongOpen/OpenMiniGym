@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgpd_hand_geometry.a  CMakeFiles/gpd_hand_geometry.dir/src/gpd/candidate/hand_geometry.cpp.o
+/usr/bin/ranlib libgpd_hand_geometry.a

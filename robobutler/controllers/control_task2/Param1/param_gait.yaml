@@ -1,0 +1,189 @@
+robot: robobutler
+#ps -ef | grep hardware_task
+#ssh-keygen
+#ssh-copy-id -i /home/pi/.ssh/id_rsa.pub odroid@192.168.1.120
+#ssh-copy-id -i /home/pi/.ssh/id_rsa.pub xavier@192.168.1.212
+
+sys_param: 
+  auto_gait_switch: 0
+  auto_gait_time: 0 
+
+grasp_param: 
+  pose_off_x: 0.017965
+  pose_off_y: -0.038426
+  pose_off_z: 0.0
+
+  pose_off_x_gpd: 0.017814
+  pose_off_y_gpd: -0.03115
+  pose_off_z_gpd: 0.0
+ 
+vmc_param: 
+  stand_z: 0.75
+
+  cog_off_x: 0.01
+  cog_off_y: 0
+
+  move_off_x: [-0.000,-0.000]
+  move_off_y: 0
+
+  att_bias_pit: 0
+  att_bias_rol: 0.0
+  att_bias_pit_f: 0
+  att_bias_rol_f: 0
+
+  ground_seek_spd: 2.5
+
+  load_Fz: 1.5
+ 
+  slip_Fx: 0
+  slip_Fz: 0
+
+  max_vFx:  40
+  min_vFx: -40
+
+  max_vFy: 0
+  min_vFy: 0
+
+  max_vFz: 70
+  min_vFz: 1
+
+  max_vTx: 25
+  max_vTy: 30
+  max_vTz: 15
+  
+  max_leg_Fx: 40
+  min_leg_Fx: -40
+
+  max_leg_Fy: 0
+  min_leg_Fy: 0
+
+  max_leg_Fz: 70
+  min_leg_Fz: 1
+
+  max_leg_err_Fx:  20
+  min_leg_err_Fx: -20
+
+  max_leg_err_Fy: 0
+  min_leg_err_Fy: 0
+
+  max_leg_err_Fz:  25
+  min_leg_err_Fz: -25
+
+  max_spd_x: 0.8
+  max_spd_y: 0
+  max_spd_rotate: 60
+
+leg_planner_param:
+  lf_offz: 0.0
+  td_offz: 0.1 
+  lf_spd_trot: 1.2
+  td_spd_trot: 0.6
+
+  lf_offz_c: 0.0
+  td_offz_c: 0.1 
+  lf_spd_trot_c: 1.2
+  td_spd_trot_c: 1.4
+
+  lf_offz_j: 0.15
+  td_offz_j: 0.15 
+  lf_spd_trot_j: 1.7
+  td_spd_trot_j: 1.7
+
+
+imp_param: 
+  sw_kp: 20
+  sw_ki: 0.3
+  sw_kd: 0.4
+  sw_vff: 120
+
+  st_kp: 20
+  st_ki: 0.3
+  st_kd: 0.4
+  st_vff: 0
+
+  int_kp: 10
+  int_ki: 0.3
+  int_kd: 0.4
+  int_vff: 0
+
+#----0 SW
+  sw_kp0: 22
+  sw_ki0: 0.2
+  sw_kd0: 0.005
+  sw_vff0: 130
+
+  st_kp0: 25
+  st_ki0: 0.2
+  st_kd0: 0.01
+  st_vff0: 0
+#----1 EX
+  sw_kp1: 30
+  sw_ki1: 0.5
+  sw_kd1: 0.8
+  sw_vff1: 150
+
+  st_kp1: 35
+  st_ki1: 0.5
+  st_kd1: 0.8
+  st_vff1: 0
+#----2 HX
+  sw_kp2: 30
+  sw_ki2: 0.5
+  sw_kd2: 0.8
+  sw_vff2: 130
+
+  st_kp2: 35
+  st_ki2: 0.5
+  st_kd2: 0.65
+  st_vff2: 0
+#----end sel
+
+  imp_x_kp: 0.01 #0.1
+  imp_y_kp: 0.01
+  imp_z_kp: 0.03 #0.03
+
+  imp_x_kd: 0.0001
+  imp_y_kd: 0.0001
+  imp_z_kd: 0.0001
+
+  fb_x_kp: 0.0025
+  fb_y_kp: 0.0025
+  fb_z_kp: 0.0025
+
+  fb_x_kd: 0
+  fb_y_kd: 0
+  fb_z_kd: 0
+
+  imp_x_fp: 0.25 #imp x forward RC gain
+  imp_y_fp: 0.25
+  imp_z_fp: 0.0
+
+
+stand_param: 
+  kp_pit: 45
+  ki_pit: 10
+  kd_pit: 1.5
+
+  kp_rol: 32
+  ki_rol: 15
+  kd_rol: 1.5
+
+  kp_yaw: 0
+  ki_yaw: 0
+  kd_yaw: 0
+  kff_dyaw: 0
+
+  kp_pos_x: 200
+  ki_pos_x: 80
+  kd_pos_x: 100
+
+  kp_pos_y: 0
+  ki_pos_y: 0
+  kd_pos_y: 0
+
+  kp_pos_z: 1000
+  ki_pos_z: 50
+  kd_pos_z: 150
+
+  ground_mu: 0.37
+

@@ -1,0 +1,26 @@
+<mujocoinclude>
+    <compiler angle="radian" inertiafromgeom="auto" inertiagrouprange="4 5"/>
+    <asset>
+        <mesh name="y3" file="./mujoco/meshes/y3.STL"/>
+        <mesh name="y2" file="./mujoco/meshes/y2.STL"/>
+        <mesh name="y1" file="./mujoco/meshes/y1.STL"/>
+        <mesh name="b1" file="./mujoco/meshes/b1.STL" scale="0.95 0.95 0.95"/>
+        <mesh name="zuo1" file="./mujoco/meshes/zuo1.STL"/>
+        <mesh name="zuo2" file="./mujoco/meshes/zuo2.STL"/>
+        <mesh name="zuo3" file="./mujoco/meshes/zuo3.STL"/>
+        <mesh name="zuo4" file="./mujoco/meshes/zuo4.STL"/>
+        <mesh name="zuo5" file="./mujoco/meshes/zuo5.STL"/>
+        <mesh name="zuo6" file="./mujoco/meshes/zuo6.STL"/>
+        <mesh name="zuo7" file="./mujoco/meshes/zuo7.STL"/>
+        <mesh name="you1" file="./mujoco/meshes/you1.STL"/>
+        <mesh name="you2" file="./mujoco/meshes/you2.STL"/>
+        <mesh name="you3" file="./mujoco/meshes/you3.STL"/>
+        <mesh name="you4" file="./mujoco/meshes/you4.STL"/>
+        <mesh name="you5" file="./mujoco/meshes/you5.STL"/>
+        <mesh name="you6" file="./mujoco/meshes/you6.STL"/>
+        <mesh name="you7" file="./mujoco/meshes/you7.STL"/>
+        <texture name="body" type="cube" builtin="flat" mark="cross" width="128" height="128" rgb1="0.8 0.6 0.4" rgb2="0.8 0.6 0.4" markrgb="1 1 1" random="0.01"/>
+        <material name="body" texture="body" texuniform="true" rgba="0.8 0.6 .4 1"/>
+    </asset>
+
+</mujocoinclude>

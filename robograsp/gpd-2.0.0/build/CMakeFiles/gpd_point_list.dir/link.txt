@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgpd_point_list.a  CMakeFiles/gpd_point_list.dir/src/gpd/util/point_list.cpp.o
+/usr/bin/ranlib libgpd_point_list.a

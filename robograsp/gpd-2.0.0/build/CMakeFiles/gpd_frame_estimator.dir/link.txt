@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgpd_frame_estimator.a  CMakeFiles/gpd_frame_estimator.dir/src/gpd/candidate/frame_estimator.cpp.o
+/usr/bin/ranlib libgpd_frame_estimator.a

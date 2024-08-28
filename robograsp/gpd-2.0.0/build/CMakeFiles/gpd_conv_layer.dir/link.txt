@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgpd_conv_layer.a  CMakeFiles/gpd_conv_layer.dir/src/gpd/net/conv_layer.cpp.o
+/usr/bin/ranlib libgpd_conv_layer.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgpd_classifier.a  CMakeFiles/gpd_classifier.dir/src/gpd/net/classifier.cpp.o CMakeFiles/gpd_classifier.dir/src/gpd/net/eigen_classifier.cpp.o
+/usr/bin/ranlib libgpd_classifier.a

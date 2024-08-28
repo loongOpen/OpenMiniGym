@@ -1,0 +1,3 @@
+/home/tinymal/下载/imitate_robohome/software/DrSun_IK_solver/ttst/ik_7dof_fourier/bulid/CMakeFiles/jiesuan.dir
+/home/tinymal/下载/imitate_robohome/software/DrSun_IK_solver/ttst/ik_7dof_fourier/bulid/CMakeFiles/edit_cache.dir
+/home/tinymal/下载/imitate_robohome/software/DrSun_IK_solver/ttst/ik_7dof_fourier/bulid/CMakeFiles/rebuild_cache.dir

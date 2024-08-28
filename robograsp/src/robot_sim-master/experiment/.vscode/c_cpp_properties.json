@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/jiao/catkin_arm/devel/include/**",
+        "/home/jiao/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/jiao/catkin_ws/src/ros_astra_camera-master/include/**",
+        "/home/jiao/catkin_ws/src/ddynamic_reconfigure/include/**",
+        "/home/jiao/catkin_arm/src/gpd_ros/include/**",
+        "/home/jiao/catkin_arm/src/point_cloud_process/include/**",
+        "/home/jiao/catkin_ws/src/realsense-ros/realsense2_camera/include/**",
+        "/home/jiao/catkin_ws/src/usb_cam-develop/include/**",
+        "/home/jiao/catkin_ws/src/webots_ros/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgpd_antipodal.a  CMakeFiles/gpd_antipodal.dir/src/gpd/candidate/antipodal.cpp.o
+/usr/bin/ranlib libgpd_antipodal.a

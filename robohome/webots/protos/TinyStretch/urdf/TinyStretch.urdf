@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="TinyStretch">
+
+  <link name="base">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <box size="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <joint name="floating_base" type="fixed">
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <parent link="base"/>
+    <child link="base_link"/>
+  </joint>
+
+
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.17459 0.08686 0.29421"
+        rpy="0 0 0" />
+      <mass
+        value="5" />
+      <inertia
+        ixx="0.0069972"
+        ixy="-4.771E-07"
+        ixz="1.3652E-06"
+        iyy="0.0098927"
+        iyz="1.1128E-05"
+        izz="0.0037007" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.22353 0.22353 0.22353 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="w0_link">
+    <inertial>
+      <origin
+        xyz="-1.09194227745912E-06 0.0239649420885343 6.01895652485585E-08"
+        rpy="0 0 0" />
+      <mass
+        value="0.315279382810749" />
+      <inertia
+        ixx="0.000221131428077565"
+        ixy="-1.44780002797026E-08"
+        ixz="2.82948550163743E-09"
+        iyy="0.000357094314967816"
+        iyz="3.19484227881232E-10"
+        izz="0.000221131635262804" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/w0_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.184313725490196 0.184313725490196 0.184313725490196 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/w0_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="w0_joint"
+    type="continuous">
+    <origin
+      xyz="-0.30277 -0.16312 0.029366"
+      rpy="0 0 1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="w0_link" />
+    <axis
+      xyz="0 -1 0" />
+  </joint>
+  <link
+    name="w1_link">
+    <inertial>
+      <origin
+        xyz="1.09190834343686E-06 -0.0239649422267602 6.02207660092835E-08"
+        rpy="0 0 0" />
+      <mass
+        value="0.315279384775034" />
+      <inertia
+        ixx="0.000221131431538734"
+        ixy="-1.44770078643538E-08"
+        ixz="-2.83045642902681E-09"
+        iyy="0.000357094317619838"
+        iyz="-3.18280547521333E-10"
+        izz="0.000221131635280463" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/w1_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.184313725490196 0.184313725490196 0.184313725490196 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/w1_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="w1_joint"
+    type="continuous">
+    <origin
+      xyz="-0.0464600532045351 -0.163116680949055 0.0293663622330227"
+      rpy="0 0 1.5707963267949" />
+    <parent
+      link="base_link" />
+    <child
+      link="w1_link" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="w2_link">
+    <inertial>
+      <origin
+        xyz="-1.09169906881146E-06 0.0239649424984497 5.94725904530524E-08"
+        rpy="0 0 0" />
+      <mass
+        value="0.315279389418188" />
+      <inertia
+        ixx="0.000221131439374369"
+        ixy="-1.44788844108911E-08"
+        ixz="2.83195035007398E-09"
+        iyy="0.000357094323623722"
+        iyz="3.217954679863E-10"
+        izz="0.000221131635933034" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/w2_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.184313725490196 0.184313725490196 0.184313725490196 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/w2_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="w2_joint"
+    type="continuous">
+    <origin
+      xyz="-0.302765422216943 -0.464836398310567 0.0293663622330201"
+      rpy="0 0 1.5707963267949" />
+    <parent
+      link="base_link" />
+    <child
+      link="w2_link" />
+    <axis
+      xyz="0 -1 0" />
+  </joint>
+  <link
+    name="w3_link">
+    <inertial>
+      <origin
+        xyz="1.09190834318706E-06 -0.02396494222676 6.02207661515308E-08"
+        rpy="0 0 0" />
+      <mass
+        value="0.315279384775031" />
+      <inertia
+        ixx="0.000221131431538733"
+        ixy="-1.4477007864181E-08"
+        ixz="-2.83045643068712E-09"
+        iyy="0.000357094317619835"
+        iyz="-3.18280547665599E-10"
+        izz="0.00022113163528046" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/w3_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.184313725490196 0.184313725490196 0.184313725490196 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/w3_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="w3_joint"
+    type="continuous">
+    <origin
+      xyz="-0.04646 -0.46484 0.029366"
+      rpy="0 0 1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="w3_link" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="arm_up_link">
+    <inertial>
+      <origin
+        xyz="-0.0462241234896398 -0.00197007925517431 0.0962405119170406"
+        rpy="0 0 0" />
+      <mass
+        value="0.779952827362442" />
+      <inertia
+        ixx="0.00419487475274371"
+        ixy="-4.32817680860962E-07"
+        ixz="3.49232712212363E-05"
+        iyy="0.0041239954769118"
+        iyz="-2.39245002555576E-07"
+        izz="0.000436914424300072" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/arm_up_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.43921568627451 0.43921568627451 0.43921568627451 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/arm_up_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="arm_up_joint"
+    type="fixed">
+    <origin
+      xyz="-0.23845 -0.17051 0.17775"
+      rpy="0 0 1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="arm_up_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="arm_base_link">
+    <inertial>
+      <origin
+        xyz="0.0230339333077933 0.0468527238148121 -0.016101610527142"
+        rpy="0 0 0" />
+      <mass
+        value="0.563791232660152" />
+      <inertia
+        ixx="0.000550162074526023"
+        ixy="-9.13800924073317E-06"
+        ixz="5.82510742155865E-06"
+        iyy="0.000705595152739619"
+        iyz="-1.29638845646991E-05"
+        izz="0.000476715767910123" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/arm_base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/arm_base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="arm_base_joint"
+    type="prismatic">
+    <origin
+      xyz="-0.018571 -0.074764 0.12691"
+      rpy="0 0 0" />
+    <parent
+      link="arm_up_link" />
+    <child
+      link="arm_base_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0.23"
+      effort="5"
+      velocity="0.3" />
+  </joint>
+  <link
+    name="head0_link">
+    <inertial>
+      <origin
+        xyz="0.0102795679074752 0.00746085002566058 0.0252557122748365"
+        rpy="0 0 0" />
+      <mass
+        value="0.0695555105223002" />
+      <inertia
+        ixx="4.76847991278306E-05"
+        ixy="8.69176759399372E-07"
+        ixz="-2.41822820084567E-06"
+        iyy="2.11016358999069E-05"
+        iyz="2.7929205957095E-06"
+        izz="5.3881861494381E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/head0_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/head0_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="head0_joint"
+    type="revolute">
+    <origin
+      xyz="0.066967 0.068038 0.05766"
+      rpy="0 0 0" />
+    <parent
+      link="arm_base_link" />
+    <child
+      link="head0_link" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="5"
+      velocity="2" />
+  </joint>
+  <link
+    name="head1_link">
+    <inertial>
+      <origin
+        xyz="-0.046457551359095 -0.0337641760376069 -0.000509428025643022"
+        rpy="0 0 0" />
+      <mass
+        value="0.0583683286626" />
+      <inertia
+        ixx="6.17055561783429E-06"
+        ixy="-2.84018407915567E-08"
+        ixz="-3.87164294125998E-09"
+        iyy="4.43443950217523E-05"
+        iyz="1.11420201000267E-09"
+        izz="4.5164988714502E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/head1_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/head1_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="head1_joint"
+    type="revolute">
+    <origin
+      xyz="0.025055 0.043831 0.036963"
+      rpy="0 0 1.5708" />
+    <parent
+      link="head0_link" />
+    <child
+      link="head1_link" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-0.85"
+      upper="0.6"
+      effort="5"
+      velocity="2" />
+  </joint>
+  <link
+    name="arm0_link">
+    <inertial>
+      <origin
+        xyz="-0.00347118599498991 -3.15184501778476E-05 0.114054429270132"
+        rpy="0 0 0" />
+      <mass
+        value="0.304945958365602" />
+      <inertia
+        ixx="0.00111803954047033"
+        ixy="-4.31180088576853E-09"
+        ixz="-3.17581305751002E-06"
+        iyy="0.00104538133328087"
+        iyz="5.36307385602601E-10"
+        izz="0.000105222620502007" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/arm0_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/arm0_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="arm0_joint"
+    type="revolute">
+    <origin
+      xyz="0 0 -0.0459"
+      rpy="1.5708 1.5708 0" />
+    <parent
+      link="arm_base_link" />
+    <child
+      link="arm0_link" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="10"
+      velocity="3" />
+  </joint>
+  <link
+    name="arm1_link">
+    <inertial>
+      <origin
+        xyz="7.78997245312607E-06 -0.00543045767371764 0.108611482367265"
+        rpy="0 0 0" />
+      <mass
+        value="0.179423889925194" />
+      <inertia
+        ixx="0.00049340842467727"
+        ixy="-4.96395858021224E-09"
+        ixz="-8.2901945949375E-08"
+        iyy="0.000503793524710836"
+        iyz="1.27227915596747E-07"
+        izz="3.35188448836816E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/arm1_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/arm1_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="arm1_joint"
+    type="revolute">
+    <origin
+      xyz="-0.046 0 0.21"
+      rpy="0 0 1.5708" />
+    <parent
+      link="arm0_link" />
+    <child
+      link="arm1_link" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="0"
+      upper="2.7"
+      effort="10"
+      velocity="3" />
+  </joint>
+  <link
+    name="arm2_link">
+    <inertial>
+      <origin
+        xyz="-0.020120222192106 0.0308892330453639 -0.000142965764577313"
+        rpy="0 0 0" />
+      <mass
+        value="0.0980521368758784" />
+      <inertia
+        ixx="4.22455880538882E-05"
+        ixy="3.45087866268331E-06"
+        ixz="2.98719439586652E-07"
+        iyy="2.25571672882411E-05"
+        iyz="-2.49758128419671E-07"
+        izz="3.19823075478051E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/arm2_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0.6 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/arm2_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="arm2_joint"
+    type="revolute">
+    <origin
+      xyz="2.9282E-05 0.0088 0.20095"
+      rpy="1.5708 0 1.5708" />
+    <parent
+      link="arm1_link" />
+    <child
+      link="arm2_link" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-1.9"
+      upper="1.9"
+      effort="10"
+      velocity="3" />
+  </joint>
+  <link
+    name="arm3_link">
+    <inertial>
+      <origin
+        xyz="0.0378614341217498 -0.000880743243431903 -0.0260096517576764"
+        rpy="0 0 0" />
+      <mass
+        value="0.0701150632473082" />
+      <inertia
+        ixx="2.85886031669487E-05"
+        ixy="1.13914110634963E-07"
+        ixz="1.37861343880548E-08"
+        iyy="2.83433374672963E-05"
+        iyz="-4.08961931990006E-09"
+        izz="1.84022487213624E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/arm3_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/arm3_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="arm3_joint"
+    type="revolute">
+    <origin
+      xyz="-0.02455 0.062411 0.027072"
+      rpy="0 0 1.5708" />
+    <parent
+      link="arm2_link" />
+    <child
+      link="arm3_link" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="10"
+      velocity="3" />
+  </joint>
+  <link
+    name="arm4_link">
+    <inertial>
+      <origin
+        xyz="0.0575769201806073 -0.000955133770654537 4.26827065894142E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.0627105561340356" />
+      <inertia
+        ixx="4.69838111630794E-05"
+        ixy="-1.40377278488317E-06"
+        ixz="6.39473133862229E-07"
+        iyy="3.87616730398487E-05"
+        iyz="-3.2262145486781E-08"
+        izz="8.16323737141362E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/arm4_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/arm4_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="arm4_joint"
+    type="revolute">
+    <origin
+      xyz="0.058117 0.0086359 -0.025821"
+      rpy="1.5708 0 0" />
+    <parent
+      link="arm3_link" />
+    <child
+      link="arm4_link" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="10"
+      velocity="3" />
+  </joint>
+  <link
+    name="lidar_link">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0" />
+      <inertia
+        ixx="0"
+        ixy="0"
+        ixz="0"
+        iyy="0"
+        iyz="0"
+        izz="0" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/lidar_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyStretch/meshes/lidar_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="lidar_joint"
+    type="fixed">
+    <origin
+      xyz="-0.17493913902624 -0.0753634572503047 0.128221215342395"
+      rpy="0 0 1.5707963267949" />
+    <parent
+      link="base_link" />
+    <child
+      link="lidar_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgpd_image_strategy.a  CMakeFiles/gpd_image_strategy.dir/src/gpd/descriptor/image_strategy.cpp.o
+/usr/bin/ranlib libgpd_image_strategy.a

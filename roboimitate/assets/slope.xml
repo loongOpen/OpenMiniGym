@@ -1,0 +1,323 @@
+<mujocoinclude>
+  <body name="slope" pos="0.3 -0.25 0.025" quat="1 1 0 0">
+    <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+    <joint type="free"/>
+    <body name="s0" pos="0 0 0.0" quat="1 0 0 0">
+ 
+      <body name="s1" pos="0 0 0.0"  >
+        <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+        <joint name="ball_joint1" type="ball"/>
+        
+        <geom condim="4" solimp="2 1 0.01" solref="0.01 1" friction="1 0.005 0.0001" pos="0 0 0" size="0.03 0.01 0.018" type="box" rgba="0.3 0 0.1 1" />
+  
+         <body name="s2" pos="0 0 -.02"  >
+            <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+            <joint type="ball"/>
+            <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+            <body name="s3" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+
+       <body name="s4" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+
+       <body name="s5" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+
+       <body name="s6" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+
+       <body name="s7" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+
+       <body name="s8" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+
+       <body name="s9" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+
+       <body name="s10" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s11" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s12" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s13" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s14" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s15" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s16" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s17" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s18" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s19" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s20" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s21" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s22" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s23" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s24" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s25" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s26" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s27" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s28" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s29" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s30" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s31" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s32" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s33" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s34" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s35" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s36" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s37" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s38" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s39" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s40" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s41" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s42" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s43" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s44" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s45" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s46" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s47" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s48" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s49" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+       <body name="s50" pos="0 0 -.02"  >
+                  <inertial pos="0 0 0" quat="1 0 0 0 " mass="0.001" diaginertia="0.001 0.001 0.001"/>
+                  <joint type="ball"/>
+                  <geom type="capsule" size="0.0025 0.015" fromto="0 0 0  0 0 -.02" rgba=".29 .9 .1 1"/>
+
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+      
+              </body>
+              </body>
+              </body>
+              </body>
+              </body>
+              </body>
+              </body>
+              </body>
+ 
+         </body>
+      </body>
+
+
+
+
+
+
+
+
+
+
+
+      </body>
+    </body>
+  
+</mujocoinclude>

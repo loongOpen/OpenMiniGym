@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgpd_cloud.a  CMakeFiles/gpd_cloud.dir/src/gpd/util/cloud.cpp.o
+/usr/bin/ranlib libgpd_cloud.a

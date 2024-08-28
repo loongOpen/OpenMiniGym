@@ -1,0 +1,6 @@
+<launch>
+  <node name="GPD_method_grasp" pkg="robot_sim" type="GPD_method_grasp" output="screen">
+  </node>
+
+
+</launch>

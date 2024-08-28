@@ -1,0 +1,1789 @@
+<mujocoinclude>
+    <worldbody>
+        <body  pos="0.28 0 0.03">
+            <inertial pos="0 0 0" mass="0.2" diaginertia="0.002 0.002 0.002" />
+            <geom condim="4" solimp="2 1 0.01" solref="0.01 1" friction="1 0.0055 0.0001" pos="0 0 0" size="0.15 0.3 0.01" type="box"rgba="0 1 1 1" />
+        </body>
+
+        <body  pos="0.43 0 0.03">
+            <geom condim="4" solimp="2 1 0.01" solref="0.01 1" friction="1 0.0055 0.0001" pos="0 0 0" size="0.01 0.3 0.05" type="box"rgba="0 0 0 1" />
+        </body>
+
+        <body  pos="0.13 0 0.03">
+            <geom condim="4" solimp="2 1 0.01" solref="0.01 1" friction="1 0.0055 0.0001" pos="0 0 0" size="0.01 0.3 0.05" type="box"rgba="0 0 0 1" />
+        </body>
+
+        <body  pos="0.28 -0.3 0.03">
+            <geom condim="4" solimp="2 1 0.01" solref="0.01 1" friction="1 0.0055 0.0001" pos="0 0 0" size="0.15 0.01 0.05" type="box"rgba="0 0 0 1" />
+        </body>
+
+        <body  pos="0.28 0.3 0.03">
+            <geom condim="4" solimp="2 1 0.01" solref="0.01 1" friction="1 0.0055 0.0001" pos="0 0 0" size="0.15 0.01 0.05" type="box"rgba="0 0 0 1" />
+        </body>
+
+        <body pos="0.28 0.0 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+        <body pos="0.28 0.0 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+        <body pos="0.28 0.0 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+        <body pos="0.28 0.0 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+        <body pos="0.28 0.0 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+        <body pos="0.28 0.0 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+        <body pos="0.28 0.0 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+        <body pos="0.28 0.0 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+        <body pos="0.28 0.0 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+        <body pos="0.28 0.0 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+        <body pos="0.28 0.01 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+     <body pos="0.28 0.01 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>     <body pos="0.28 0.01 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>     <body pos="0.28 0.01 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>     <body pos="0.28 0.01 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>     <body pos="0.28 0.01 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>     <body pos="0.28 0.01 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>     <body pos="0.28 0.01 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>     <body pos="0.28 0.01 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+
+       <body pos="0.28 0.02 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+               <body pos="0.28 0.02 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>       <body pos="0.28 0.02 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>       <body pos="0.28 0.02 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>       <body pos="0.28 0.02 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>       <body pos="0.28 0.02 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>       <body pos="0.28 0.02 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>      
+        <body pos="0.25 -0.075 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+        <body pos="0.25 -0.075 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+        <body pos="0.25 -0.075 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+        <body pos="0.25 -0.075 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+        <body pos="0.25 -0.075 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+        <body pos="0.25 -0.075 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+        <body pos="0.25 -0.075 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+        <body pos="0.25 -0.075 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+        <body pos="0.25 -0.075 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+                <body pos="0.25 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+                        <body pos="0.25 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                <body pos="0.25 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                <body pos="0.25 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                <body pos="0.25 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                <body pos="0.25 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                <body pos="0.25 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                <body pos="0.25 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                <body pos="0.25 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                <body pos="0.25 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                <body pos="0.25 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                <body pos="0.25 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                <body pos="0.25 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                <body pos="0.25 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                <body pos="0.25 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                <body pos="0.25 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                <body pos="0.25 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                <body pos="0.25 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                <body pos="0.25 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                <body pos="0.25 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                <body pos="0.25 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                <body pos="0.25 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                <body pos="0.25 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                <body pos="0.25 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+                        <body pos="0.25 0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+                              <body pos="0.25 0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                      <body pos="0.25 0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                      <body pos="0.25 0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                      <body pos="0.25 0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                      <body pos="0.25 0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                      <body pos="0.25 0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                      <body pos="0.25 0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                      <body pos="0.25 0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                      <body pos="0.25 0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                      <body pos="0.25 0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                      <body pos="0.25 0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                      <body pos="0.25 0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                      <body pos="0.25 0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                      <body pos="0.25 0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                      <body pos="0.25 0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                      <body pos="0.25 0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                      <body pos="0.25 0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                      <body pos="0.25 0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                      <body pos="0.25 0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                      <body pos="0.25 0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                      <body pos="0.25 0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                      <body pos="0.25 0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+
+                              <body pos="0.25 -0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+                                      <body pos="0.25 -0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                              <body pos="0.25 -0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                              <body pos="0.25 -0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                              <body pos="0.25 -0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                              <body pos="0.25 -0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                              <body pos="0.25 -0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                              <body pos="0.25 -0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                              <body pos="0.25 -0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                              <body pos="0.25 -0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                              <body pos="0.25 -0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                              <body pos="0.25 -0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                              <body pos="0.25 -0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                              <body pos="0.25 -0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                              <body pos="0.25 -0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                              <body pos="0.25 -0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                              <body pos="0.25 -0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                              <body pos="0.25 -0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                              <body pos="0.25 -0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                              <body pos="0.25 -0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                              <body pos="0.25 -0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                              <body pos="0.25 -0.2 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+                                      <body pos="0.225 -0.23 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+                                              <body pos="0.225 -0.23 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                                      <body pos="0.225 -0.23 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                                      <body pos="0.225 -0.23 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                                      <body pos="0.225 -0.23 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                                      <body pos="0.225 -0.23 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                                      <body pos="0.225 -0.23 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                                      <body pos="0.225 -0.23 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                                      <body pos="0.225 -0.23 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                                      <body pos="0.225 -0.23 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                                      <body pos="0.225 -0.23 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                                      <body pos="0.225 -0.23 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                                      <body pos="0.225 -0.23 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                                      <body pos="0.225 -0.23 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                                      <body pos="0.225 -0.23 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                                      <body pos="0.225 -0.23 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                                      <body pos="0.225 -0.23 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>                                      <body pos="0.225 -0.23 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+         <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+       <body pos="0.225 -0.17 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+       <body pos="0.225 -0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+<body pos="0.225 -0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body><body pos="0.225 -0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body><body pos="0.225 -0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body><body pos="0.225 -0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body><body pos="0.225 -0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body><body pos="0.225 -0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body><body pos="0.225 -0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body><body pos="0.225 -0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body><body pos="0.225 -0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body><body pos="0.225 -0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body><body pos="0.225 -0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body><body pos="0.225 -0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body><body pos="0.225 -0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body><body pos="0.225 -0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body><body pos="0.225 -0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body><body pos="0.225 -0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body><body pos="0.225 -0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body><body pos="0.225 -0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+        <body pos="0.225 -0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.225 -0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>  <body pos="0.225 -0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>  <body pos="0.225 -0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>  <body pos="0.225 -0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>  <body pos="0.225 -0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>  <body pos="0.225 -0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>  <body pos="0.225 -0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>  <body pos="0.225 -0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>  <body pos="0.225 -0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>  <body pos="0.225 -0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>  <body pos="0.225 -0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>  <body pos="0.225 -0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>  <body pos="0.225 -0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>  <body pos="0.225 -0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>  <body pos="0.225 -0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>  <body pos="0.225 -0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>  <body pos="0.225 -0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>  <body pos="0.225 -0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>  <body pos="0.225 -0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>  <body pos="0.225 -0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>  <body pos="0.225 -0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>  <body pos="0.225 -0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+           
+             <body pos="0.225 0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+                   <body pos="0.225 0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>           <body pos="0.225 0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>           <body pos="0.225 0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>           <body pos="0.225 0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>           <body pos="0.225 0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>           <body pos="0.225 0.12 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+
+                   <body pos="0.225 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+             <body pos="0.225 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>     <body pos="0.225 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>     <body pos="0.225 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>     <body pos="0.225 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>     <body pos="0.225 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>     <body pos="0.225 0.15 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+
+          <body pos="0.25 -0.075 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 -0.075 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 -0.075 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 -0.075 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 -0.075 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 -0.075 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+
+   
+          <body pos="0.25 0.075 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.075 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.075 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.075 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.075 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.075 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+     
+   <body pos="0.25 0.075 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.075 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.075 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.075 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.075 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.075 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+
+           <body pos="0.25 0.075 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.075 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.075 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.075 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.075 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.075 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+           <body pos="0.25 0.075 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.075 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.075 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.075 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.075 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.075 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+
+   <body pos="0.25 0.175 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.175 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.175 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.175 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.175 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.175 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+
+
+   <body pos="0.25 0.175 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.175 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.175 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.175 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.175 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.175 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+
+   <body pos="0.25 0.175 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.175 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.175 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.175 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.175 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.175 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+
+
+   <body pos="0.25 0.175 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.175 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.175 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.175 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.175 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0.175 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+
+
+   <body pos="0.25 0 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+         <body pos="0.25 0 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+         <body pos="0.25 0 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+         <body pos="0.25 0 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+         <body pos="0.25 0 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+         <body pos="0.25 0 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.25 0 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+
+         <body pos="0.275 0 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.275 0 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.275 0 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.275 0 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.275 0 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.275 0 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+           <body pos="0.375 0 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+           <body pos="0.375 0 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+
+           <body pos="0.375 0 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+
+           <body pos="0.375 0.25 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0.25 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0.25 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0.25 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0.25 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0.25 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+               <body pos="0.375 0.25 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0.25 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0.25 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0.25 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0.25 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0.25 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+               <body pos="0.375 0.25 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0.25 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0.25 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0.25 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0.25 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0.25 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+               <body pos="0.375 0.25 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0.25 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0.25 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0.25 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0.25 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.375 0.25 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+
+               <body pos="0.175 0.25 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.175 0.25 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.175 0.25 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.175 0.25 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.175 0.25 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.175 0.25 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+              <body pos="0.175 0.25 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.175 0.25 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.175 0.25 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.175 0.25 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.175 0.25 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.175 0.25 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+              <body pos="0.175 0.25 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.175 0.25 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.175 0.25 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.175 0.25 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.175 0.25 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.175 0.25 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+              <body pos="0.175 0.25 0.1" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.175 0.25 0.11" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.175 0.25 0.12" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.175 0.234 0.13" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.175 0.24 0.14" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+          <body pos="0.175 0.234 0.15" >
+            <freejoint/>
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom size="0.008"   friction="0.01 0.01 0.01" type="sphere" rgba="1 1 0 1" />
+        </body>
+
+    </worldbody>
+</mujocoinclude>

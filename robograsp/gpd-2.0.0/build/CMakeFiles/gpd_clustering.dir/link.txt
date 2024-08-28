@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgpd_clustering.a  CMakeFiles/gpd_clustering.dir/src/gpd/clustering.cpp.o
+/usr/bin/ranlib libgpd_clustering.a

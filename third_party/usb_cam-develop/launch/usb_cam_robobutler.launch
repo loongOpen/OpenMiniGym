@@ -1,0 +1,15 @@
+<launch>
+   <node name="cam_high" pkg="usb_cam" type="usb_cam_node" output="screen" >
+      <rosparam command="load" file="$(find usb_cam)/config/usb_cam_head_robobutler.yml"/>
+  </node>
+
+   <node name="cam_right_wrist" pkg="usb_cam" type="usb_cam_node" output="screen" >
+      <rosparam command="load" file="$(find usb_cam)/config/usb_cam_arm_robobutler.yml"/>
+  </node>
+
+   <!-- <node name="cam_left_wrist" pkg="usb_cam" type="usb_cam_node" output="screen" >
+      <rosparam command="load" file="$(find usb_cam)/config/usb_cam2.yml"/>
+   </node> -->
+  
+ 
+</launch>

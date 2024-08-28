@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgpd_finger_hand.a  CMakeFiles/gpd_finger_hand.dir/src/gpd/candidate/finger_hand.cpp.o
+/usr/bin/ranlib libgpd_finger_hand.a

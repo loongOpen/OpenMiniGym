@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot
+  name="sonnyV4_new_new_new">
+
+
+  <link
+    name="waistYaw">
+    <inertial>
+      <origin
+        xyz="-0.010388 -0.001695 0.022471"
+        rpy="0 0 0" />
+      <mass
+        value="0.378860" />
+      <inertia
+        ixx="0.000559"
+        ixy="-0.000010"
+        ixz="-0.000002"
+        iyy="0.000414"
+        iyz="-0.000027"
+        izz="0.000713" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/y3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.15 0.15 0.15 1" />
+        <!-- <color
+          rgba="1 1 1 1" /> -->
+      </material>
+    </visual>
+
+      <collision>
+      <origin
+        xyz="0.0 0.0 0.0"
+        rpy="0 0 0" />
+      <geometry>
+        <!-- <cylinder length="0.16" radius="0.07"/> -->
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/y3.STL" />
+      </geometry>
+      <!-- <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/you3.STL" />
+      </geometry> -->
+    </collision>
+
+  </link>
+
+  <link
+    name="waistPitch">
+    <inertial>
+      <origin
+        xyz="0.001679 0.037972 0.042537"
+        rpy="0 0 0" />
+      <mass
+        value="2.453693" />
+      <inertia
+        ixx="0.006530"
+        ixy="0.000007"
+        ixz="0.000170"
+        iyy="0.006528"
+        iyz="0.000177"
+        izz="0.002075" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/y2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.15 0.15 0.15 1" />
+        <!-- <color
+          rgba="0.686274509803922 0.686274509803922 0.686274509803922 1" /> -->
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/y2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="waistPitch"
+    type="fixed">
+    <origin
+      xyz="0 -0.03965 0.055"
+      rpy="0 0 0" />
+    <parent
+      link="waistYaw" />
+    <child
+      link="waistPitch" />
+    <axis
+      xyz="0 1 0" />
+    <limit effort="82.5" lower="-1.57" upper="1.57" velocity="8.0"/>
+  </joint>
+  <link
+    name="waistRoll">
+    <inertial>
+      <origin
+        xyz="-0.035884 0.0 0.032200"
+        rpy="0 0 0" />
+      <mass
+        value="0.317200" />
+      <inertia
+        ixx="0.000344"
+        ixy="0.0"
+        ixz="-0.000015"
+        iyy="0.000517"
+        iyz="0.0"
+        izz="0.000605" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/y1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.15 0.15 0.15 1" />
+        <!-- <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" /> -->
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/y1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="waistRoll"
+    type="fixed">
+    <origin
+      xyz="0.03965 0.03965 0.085"
+      rpy="0 0 0" />
+    <parent
+      link="waistPitch" />
+    <child
+      link="waistRoll" />
+    <axis
+      xyz="1 0 0" />
+    <limit effort="82.5" lower="-1.57" upper="1.57" velocity="8.0"/>
+  </joint>
+  <link
+    name="torso">
+    <inertial>
+      <origin
+        xyz="-0.012990 0.012559 -0.016876"
+        rpy="0 0 0" />
+      <mass
+        value="5.293464" />
+      <inertia
+        ixx="0.031058"
+        ixy="0.000699"
+        ixz="0.002136"
+        iyy="0.023216"
+        iyz="0.001421"
+        izz="0.016461" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/b1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.15 0.15 0.15 1" />
+        <!-- <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" /> -->
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0.0"
+        rpy="0 0 0" />
+      <geometry>
+        <!-- <sphere radius="0.1"/> -->
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/b1.STL" />
+      </geometry>
+    </collision>
+
+  </link>
+  <joint
+    name="torso"
+    type="fixed">
+    <origin
+      xyz="-0.03965 0 0.19760320787506"
+      rpy="0 0 0" />
+    <parent
+      link="waistRoll" />
+    <child
+      link="torso" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+  <link
+    name="shoulderPitchLeft">
+    <inertial>
+      <origin
+        xyz="0.00543959 0.05818666 -0.00001075"
+        rpy="0 0 0" />
+      <mass
+        value="0.77170250" />
+      <inertia
+        ixx="0.00068500"
+        ixy="0.00004059"
+        ixz="0.00000064"
+        iyy="0.00041017"
+        iyz="-0.00000177"
+        izz="0.00064509" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/zuo1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.15 0.15 0.15 1" />
+        <!-- <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" /> -->
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/zuo1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="shoulderPitch_Left"
+    type="revolute">
+    <origin
+      xyz="0 0.126623540681031 0.0196556705521279"
+      rpy="0.436332320793253 0 0" />
+    <parent
+      link="torso" />
+    <child
+      link="shoulderPitchLeft" />
+    <axis
+      xyz="0 1 0" />
+    <limit effort="18.0" lower="-2.618" upper="1.047" velocity="8.0"/>
+  </joint>
+  <link
+    name="shoulderRollLeft">
+    <inertial>
+      <origin
+        xyz="-0.02621271 0.09487288 0.03613994"
+        rpy="0 0 0" />
+      <mass
+        value="0.50766554" />
+      <inertia
+        ixx="0.00092986"
+        ixy="-0.00021876"
+        ixz="-0.00006163"
+        iyy="0.00032675"
+        iyz="0.00017328"
+        izz="0.00092647" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/zuo2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.15 0.15 0.15 1" />
+        <!-- <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" /> -->
+      </material>
+    </visual>
+    <!-- <visual>
+      <origin
+        xyz="-0.025 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.04"/>
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.236 0.225 0.225 1" />
+      </material>
+    </visual> -->
+    <collision>
+
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/zuo2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="shoulderRoll_Left"
+    type="revolute">
+    <origin
+      xyz="0.031999983030471 0.0670000081048653 0"
+      rpy="-2.00712863979338 0 0" />
+    <parent
+      link="shoulderPitchLeft" />
+    <child
+      link="shoulderRollLeft" />
+    <axis
+      xyz="1 0 0" />
+    <limit effort="18.0" lower="0.0" upper="3.1415926" velocity="8.0"/>  
+  </joint>
+  <link
+    name="shoulderYawLeft">
+    <inertial>
+      <origin
+        xyz="-0.00058180 0.08646464 0.00051497"
+        rpy="0 0 0" />
+      <mass
+        value="0.46974876" />
+      <inertia
+        ixx="0.00082642"
+        ixy="-0.00000384"
+        ixz="-0.00000177"
+        iyy="0.00016793"
+        iyz="0.00000332"
+        izz="0.00081863" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <!-- <cylinder length="0.07" radius="0.015"/> -->
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/zuo3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.15 0.15 0.15 1" />
+        <!-- <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" /> -->
+      </material>
+    </visual>
+    <collision>
+
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+      
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/zuo3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="shoulderYaw_Left"
+    type="revolute">
+    <origin
+      xyz="-0.0320000087093567 0.13653033030089 0.0399999930319231"
+      rpy="0 0 0" />
+    <parent
+      link="shoulderRollLeft" />
+    <child
+      link="shoulderYawLeft" />
+    <axis
+      xyz="0 1 0" />
+    <limit effort="18.0" lower="-1.57" upper="1.57" velocity="8.0"/>
+  </joint>
+  <link
+    name="elbowLeft">
+    <inertial>
+      <origin
+        xyz="-0.00011118 0.08753807 -0.02085588"
+        rpy="0 0 0" />
+      <mass
+        value="0.44695620" />
+      <inertia
+        ixx="0.00043623"
+        ixy="-0.00000040"
+        ixz="-0.00000006"
+        iyy="0.00018512"
+        iyz="-0.00005009"
+        izz="0.00041190" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/zuo4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.15 0.15 0.15 1" />
+        <!-- <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" /> -->
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+      
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/zuo4.STL" />
+      </geometry>
+
+    </collision>
+  </link>
+  <joint
+    name="elbow_Left"
+    type="revolute">
+    <origin
+      xyz="0 0.109999999996649 0.0225303303019319"
+      rpy="0 0 0" />
+    <parent
+      link="shoulderYawLeft" />
+    <child
+      link="elbowLeft" />
+    <axis
+      xyz="0 0 1" />
+    <limit effort="18.0" lower="-2.8" upper="0.0" velocity="8.0"/>
+  </joint>
+  <link
+    name="wristYawLeft">
+    <inertial>
+      <origin
+        xyz="0.00001044 0.05580546 0.00019754"
+        rpy="0 0 0" />
+      <mass
+        value="0.33817414" />
+      <inertia
+        ixx="0.00036885"
+        ixy="0.00000004"
+        ixz="0.00000003"
+        iyy="0.00014206"
+        iyz="0.00000171"
+        izz="0.00032478" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/zuo5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.15 0.15 0.15 1" />
+        <!-- <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" /> -->
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <!-- <cylinder length="0.1" radius="0.03"/> -->
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/zuo5.STL" />
+      </geometry>
+      <!-- <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+      
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/zuo3.STL" />
+      </geometry> -->
+    </collision>
+  </link>
+  <joint
+    name="wristYaw_Left"
+    type="revolute">
+    <origin
+      xyz="0 0.119029693673247 -0.0225001718767759"
+      rpy="1.22191583977987E-05 0 6.88165313456609E-05" />
+    <parent
+      link="elbowLeft" />
+    <child
+      link="wristYawLeft" />
+    <axis
+      xyz="0 1 0" />
+    <limit effort="18.0" lower="-3.14" upper="3.14" velocity="8.0"/>
+  </joint>
+  <link
+    name="wristPitchLeft">
+    <inertial>
+      <origin
+        xyz="0.00031583 -0.00130083 -0.02117234"
+        rpy="0 0 0" />
+      <mass
+        value="0.17160000" />
+      <inertia
+        ixx="0.00003941"
+        ixy="0.00000318"
+        ixz="-0.00000006"
+        iyy="0.00005228"
+        iyz="0.00000014"
+        izz="0.00005147" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/zuo6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.15 0.15 0.15 1" />
+        <!-- <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" /> -->
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/zuo6.STL" />
+      </geometry>
+  
+    </collision>
+  </link>
+  <joint
+    name="wristPitch_Left"
+    type="revolute">
+    <origin
+      xyz="0 0.122500000447922 0.0214000000000155"
+      rpy="0 0 -6.88165313508023E-05" />
+    <parent
+      link="wristYawLeft" />
+    <child
+      link="wristPitchLeft" />
+    <axis
+      xyz="0 0 1" />
+    <limit effort="18.0" lower="-1.5708" upper="1.5708" velocity="8.0"/>
+  </joint>
+
+  <link
+    name="wristRollLeft">
+    <inertial>
+      <origin
+        xyz="-0.02108274 0.01897347 0.0"
+        rpy="0 0 0" />
+      <mass
+        value="0.02868924" />
+      <inertia
+        ixx="0.00000964"
+        ixy="-0.00000104"
+        ixz="0.00000000"
+        iyy="0.00001483"
+        iyz="0.00000000"
+        izz="0.00002026" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/zuo7.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.15 0.15 0.15 1" />
+        <!-- <color
+          rgba="1 1 1 1" /> -->
+      </material>
+    </visual>
+    <!-- <collision>
+      <origin
+        xyz="0 0.0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/zuo7.STL" />
+      </geometry>
+
+    </collision> -->
+  </link>
+  <joint
+    name="wristRoll_Left"
+    type="revolute">
+    <origin
+      xyz="0.0229999999454974 0 -0.021400000000012"
+      rpy="0 0 6.88165313172141E-05" />
+    <parent
+      link="wristPitchLeft" />
+    <child
+      link="wristRollLeft" />
+    <axis
+      xyz="1 0 0" />
+    <limit effort="18.0" lower="-1.5708" upper="1.5708" velocity="8.0"/>
+  </joint>
+
+  <link
+    name="shoulderPitchRight">
+    <inertial>
+      <origin
+        xyz="0.00524050 -0.05818589 -0.00000872"
+        rpy="0 0 0" />
+      <mass
+        value="0.77170250" />
+      <inertia
+        ixx="0.00067837"
+        ixy="-0.00003923"
+        ixz="0.00000061"
+        iyy="0.00040297"
+        iyz="0.00000179"
+        izz="0.00063796" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/you1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.15 0.15 0.15 1" />
+        <!-- <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" /> -->
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/you1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="shoulderPitch_Right"
+    type="revolute">
+    <origin
+      xyz="0 -0.126623540935121 0.0196556700072115"
+      rpy="-0.43633231299858 0 0" />
+    <parent
+      link="torso" />
+    <child
+      link="shoulderPitchRight" />
+    <axis
+      xyz="0 1 0" />
+    <limit effort="18.0" lower="-2.618" upper="1.047" velocity="8.0"/>
+  </joint>
+  <link
+    name="shoulderRollRight">
+    <inertial>
+      <origin
+        xyz="-0.02621258 -0.09483971 0.03613675"
+        rpy="0 0 0" />
+      <mass
+        value="0.50766499" />
+      <inertia
+        ixx="0.00092464"
+        ixy="0.00021867"
+        ixz="-0.00006162"
+        iyy="0.00032406"
+        iyz="-0.00017321"
+        izz="0.00092133" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/you2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.15 0.15 0.15 1" />
+        <!-- <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" /> -->
+      </material>
+    </visual>
+    <collision>
+
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/you2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="shoulderRoll_Right"
+    type="revolute">
+    <origin
+      xyz="0.0319999999999985 -0.0669999999999986 0"
+      rpy="2.00712863979348 0 0" />
+    <parent
+      link="shoulderPitchRight" />
+    <child
+      link="shoulderRollRight" />
+    <axis
+      xyz="1 0 0" />
+    <limit effort="18.0" lower="-3.1415926" upper="0.0" velocity="8.0"/>  
+  </joint>
+  <link
+    name="shoulderYawRight">
+    <inertial>
+      <origin
+        xyz="-0.00058316 -0.08646131 0.00047906"
+        rpy="0 0 0" />
+      <mass
+        value="0.46974981" />
+      <inertia
+        ixx="0.00082183"
+        ixy="0.00000387"
+        ixz="-0.00000176"
+        iyy="0.00016345"
+        iyz="-0.00000294"
+        izz="0.00081588" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/you3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.15 0.15 0.15 1" />
+        <!-- <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" /> -->
+      </material>
+    </visual>
+    <collision>
+
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/you3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="shoulderYaw_Right"
+    type="revolute">
+    <origin
+      xyz="-0.0320000000002931 -0.136530330300864 0.0399999999991598"
+      rpy="0 0 0" />
+    <parent
+      link="shoulderRollRight" />
+    <child
+      link="shoulderYawRight" />
+    <axis
+      xyz="0 1 0" />
+    <limit effort="18.0" lower="-1.57" upper="1.57" velocity="8.0"/>
+  </joint>
+  <link
+    name="elbowRight">
+    <inertial>
+      <origin
+        xyz="-0.00010758 -0.08750034 -0.02085603"
+        rpy="0 0 0" />
+      <mass
+        value="0.44695620" />
+      <inertia
+        ixx="0.00043144"
+        ixy="0.00000041"
+        ixz="-0.00000005"
+        iyy="0.00018244"
+        iyz="0.00005007"
+        izz="0.00040705" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/you4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.15 0.15 0.15 1" />
+        <!-- <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" /> -->
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+      
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/you4.STL" />
+      </geometry>
+
+    </collision>
+  </link>
+  <joint
+    name="elbow_Right"
+    type="revolute">
+    <origin
+      xyz="0 -0.109999999996644 0.0225303303019291"
+      rpy="0 0 0" />
+    <parent
+      link="shoulderYawRight" />
+    <child
+      link="elbowRight" />
+    <axis
+      xyz="0 0 1" />
+    <limit effort="18.0" lower="-0.0" upper="2.8" velocity="8.0"/>
+  </joint>
+  <link
+    name="wristYawRight">
+    <inertial>
+      <origin
+        xyz="-0.00000582 -0.05580865 -0.00010517"
+        rpy="0 0 0" />
+      <mass
+        value="0.33817414" />
+      <inertia
+        ixx="0.00036777"
+        ixy="0.00000006"
+        ixz="-0.00000002"
+        iyy="0.00014102"
+        iyz="-0.00000257"
+        izz="0.00032472" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/you5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.15 0.15 0.15 1" />
+        <!-- <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" /> -->
+      </material>
+    </visual>
+    <collision>
+
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/you5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wristYaw_Right"
+    type="revolute">
+    <origin
+      xyz="0 -0.119029693672666 -0.0225001678683308"
+      rpy="-1.22100046105742E-05 0 -6.83496138025266E-05" />
+    <parent
+      link="elbowRight" />
+    <child
+      link="wristYawRight" />
+    <axis
+      xyz="0 1 0" />
+    <limit effort="18.0" lower="-3.14" upper="3.14" velocity="8.0"/>
+  </joint>
+  <link
+    name="wristPitchRight">
+    <inertial>
+      <origin
+        xyz="-0.00102886 0.00129153 -0.02117405"
+        rpy="0 0 0" />
+      <mass
+        value="0.17160000" />
+      <inertia
+        ixx="0.00003928"
+        ixy="0.00000332"
+        ixz="0.00000009"
+        iyy="0.00004907"
+        iyz="-0.00000014"
+        izz="0.00004825" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/you6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.15 0.15 0.15 1" />
+        <!-- <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" /> -->
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/you6.STL" />
+      </geometry>
+
+    </collision>
+  </link>
+  <joint
+    name="wristPitch_Right"
+    type="revolute">
+    <origin
+      xyz="0 -0.12250000044792 0.0214000000000172"
+      rpy="0 0 0" />
+    <parent
+      link="wristYawRight" />
+    <child
+      link="wristPitchRight" />
+    <axis
+      xyz="0 0 1" />
+    <limit effort="18.0" lower="-1.5708" upper="1.5708" velocity="8.0"/>
+  </joint>
+
+
+  <link
+    name="wristRollRight">
+    <inertial>
+      <origin
+        xyz="0.02108274 -0.01897347 0.0"
+        rpy="0 0 0" />
+      <mass
+        value="0.02868924" />
+      <inertia
+        ixx="0.00000964"
+        ixy="-0.00000104"
+        ixz="0.00000000"
+        iyy="0.00001483"
+        iyz="0.00000000"
+        izz="0.00002026" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/you7.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.15 0.15 0.15 1" />
+        <!-- <color
+          rgba="1 1 1 1" /> -->
+      </material>
+    </visual>
+    <!-- <collision>
+      <origin
+        xyz="0.0 0.0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="/home/vipp/test/3-ALOHA/act_plus3/assets/sonnieURDF_upbody/meshes/you7.STL" />
+      </geometry>
+
+    </collision> -->
+  </link>
+  <joint
+    name="wristRoll_Right"
+    type="revolute">
+    <origin
+      xyz="-0.023000000000045 0 -0.0213999999999737"
+      rpy="0 0 0" />
+    <parent
+      link="wristPitchRight" />
+    <child
+      link="wristRollRight" />
+    <axis
+      xyz="1 0 0" />
+    <limit effort="18.0" lower="-1.5708" upper="1.5708" velocity="8.0"/>
+  </joint>
+    <link
+    name="world"/>
+      <joint
+    name="world_fixed"
+    type="fixed">
+    <origin
+      xyz="0 0 0.5"
+      rpy="0 0 0" />
+    <parent
+      link="world" />
+    <child
+      link="waistYaw" />
+  </joint>
+  <mujoco>
+        <compiler 
+        meshdir="/home/byz/.mujoco/mujoco236/model/sonnieURDF_upbody/meshes/" 
+        balanceinertia="true" 
+        discardvisual="false" />
+  </mujoco>
+
+
+  
+</robot>

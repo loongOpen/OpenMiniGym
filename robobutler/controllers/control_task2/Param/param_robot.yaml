@@ -1,0 +1,73 @@
+robot: robobutler #192.168.1.168
+
+robot_param: 
+  L1: 0.09
+  L2: 0.18
+  L3: 0.025
+  L4: 0.0
+  H: 0.36
+  W: 0.22
+  Q_side_bias: 0.0
+  Mess: 4.5
+
+#rst_q0: [-167.2,-52.1,-167.9,-51.7]
+#rst_q1: [198.6,314.8,199.3,314.1]
+#rst_q0: [0,0,0,0]
+#rst_q1: [180,180,180,180]
+kin_param: #0右前腿
+  dof_num:  [3,3,3,3]
+  kin_head: [1,-1,1,-1]
+
+  max_q0: [40,35,35,35]
+  min_q0: [-40,-35,-35,-35]
+
+  max_q1: [-70,150,150,150]
+  min_q1: [81,27,27,27]
+
+  max_q2: [167,45,35,35]
+  min_q2: [11,-35,-45,-45]
+
+  int_q0: 0
+  int_q1: 81
+  int_q2: 167
+
+  rst_q0: [0,0,0,0]
+  rst_q1: [0,0,0,0]
+  rst_q2: [0,0,0,0]
+
+  max_q_tau_div: [15,8,8]   #Nm
+  max_q_tau: 15 #Nm
+  max_q_I:   15  #A
+
+  i_2_Nm_q: [1.0,1.0,1.0,1.0] #Nm.A
+  
+#----------------着地参数
+touch_st_stand:
+  st_td: 2.5
+  st_lf: 0.25
+  check_spd: 0.6
+  check_td: 1
+  check_lf: 1
+
+touch_st_trot:
+  st_td: 2.5
+  st_lf: 0.25
+  check_spd: 0.6
+  check_td: 2
+  check_lf: 1
+
+touch_swing:
+  st_td: 12 
+  trot_sw: 4
+  st_lf: 0.4
+  check_spd: 0.45
+  check_td: 2
+  check_lf: 1
+
+touch_td:
+  st_td: 3.25
+  st_lf: 1.2
+  check_spd: 0.45
+  check_td: 2
+  check_lf: 1
+

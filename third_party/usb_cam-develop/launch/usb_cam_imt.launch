@@ -1,0 +1,26 @@
+<launch>
+   <node name="cam_high" pkg="usb_cam" type="usb_cam_node" output="screen" >
+      <rosparam command="load" file="$(find usb_cam)/config/usb_cam0.yml"/>
+  </node>
+
+   <node name="cam_right_wrist" pkg="usb_cam" type="usb_cam_node" output="screen" >
+      <rosparam command="load" file="$(find usb_cam)/config/usb_cam1.yml"/>
+  </node>
+
+   <!-- <node name="cam_left_wrist" pkg="usb_cam" type="usb_cam_node" output="screen" >
+      <rosparam command="load" file="$(find usb_cam)/config/usb_cam2.yml"/>
+   </node> -->
+  
+   <node name="image_view_cam_high" pkg="image_view" type="image_view" respawn="false" output="screen">
+    <remap from="image" to="/cam_high/image_raw"/>
+    <param name="autosize" value="true" />
+  </node>
+    <node name="image_view_cam_right_wrist" pkg="image_view" type="image_view" respawn="false" output="screen">
+    <remap from="image" to="/cam_high/cam_right_wrist"/>
+    <param name="autosize" value="true" />
+  </node>
+    <!-- <node name="image_view_cam_cam_left_wrist" pkg="image_view" type="image_view" respawn="false" output="screen">
+    <remap from="image" to="/cam_high/cam_left_wrist"/>
+    <param name="autosize" value="true" />
+  </node> -->
+</launch>

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgpd_dense_layer.a  CMakeFiles/gpd_dense_layer.dir/src/gpd/net/dense_layer.cpp.o
+/usr/bin/ranlib libgpd_dense_layer.a

@@ -1,0 +1,14 @@
+roslaunch usb_cam usb_cam_robobutler.launch 
+roslaunch astra_camera astra.launch
+
+roslaunch realsense2_camera point.launch 
+roslaunch realsense2_camera point_head.launch 
+
+roslaunch point_cloud_process get_table_top_points.launch 
+roslaunch gpd_ros tinyarm.launch 
+roslaunch robot_sim gpd_run.launch 
+
+catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
+
+ros_eigen_params
+

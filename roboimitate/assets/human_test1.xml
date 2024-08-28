@@ -1,0 +1,89 @@
+<mujoco>
+    <include file="scene.xml"/>
+    <include file="vx300s_dependencies.xml"/>
+    <include file="human_dependencies.xml"/>
+
+    <worldbody>
+        <include file="human_up.xml" />
+        <body mocap="true" name="mocap_left" pos="0 0 0">
+            <site pos="0 0 0" size="0.03 0.03 0.03" type="box" name="mocap_left_site1" rgba="1 0 0 1"/>
+            <site pos="0 0 0" size="0.03 0.03 0.03" type="box" name="mocap_left_site2" rgba="1 0 0 1"/>
+            <site pos="0 0 0" size="0.03 0.03 0.03" type="box" name="mocap_left_site3" rgba="1 0 0 1"/>
+        </body>
+
+        <body name="box" pos="0.28 0.185 0.06">
+            <joint name="red_box_joint" type="free" frictionloss="0.01" />
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom condim="4" solimp="2 1 0.01" solref="0.01 1" friction="1 0.005 0.0001" pos="0 0 0" size="0.008 0.008 0.015" type="box" name="red_box" rgba="0.3 0 0.1 1" />
+        </body>
+
+        <body name="box1" pos="0.48 -0.185 0.06">
+            <joint name="blue_box_joint" type="free" frictionloss="0.01" />
+            <inertial pos="0 0 0" mass="0.05" diaginertia="0.002 0.002 0.002" />
+            <geom condim="4" solimp="2 1 0.01" solref="0.01 1" friction="1 0.005 0.0001" pos="0 0 0" size="0.008 0.008 0.015" type="box" name="blue_box" rgba="0.1 0 0.3 1" />
+        </body>
+
+        <body name="box2" pos="0.32 -0.08 0.0">
+             
+            <inertial pos="0 0 0" mass="0.2" diaginertia="0.002 0.002 0.002" />
+            <geom type="capsule" size="0.025 0.05" fromto="0 0 0  0 0 0.1" rgba=".19 .9 .1 1"/>
+        </body>
+
+ 
+
+         <include file="slope.xml"/>
+
+    </worldbody>
+
+    <actuator>
+        <position joint="shoulderPitch_Left" gear="1" ctrllimited="true" ctrlrange="-3.14 3.14" kp="250"  user="1"/>
+        <position joint="shoulderRoll_Left" gear="1" ctrllimited="true" ctrlrange="-3.14 3.14" kp="250"  user="1"/>
+        <position joint="shoulderYaw_Left" gear="1" ctrllimited="true" ctrlrange="-3.14 3.14" kp="70"  user="1"/>
+        <position joint="elbow_Left" gear="1" ctrllimited="true" ctrlrange="-3.14 3.14" kp="40"  user="1"/>
+        <position joint="wristYaw_Left" gear="1" ctrllimited="true" ctrlrange="-3.14 3.14" kp="30"  user="1"/>
+        <position joint="wristPitch_Left" gear="1" ctrllimited="true" ctrlrange="-3.14 3.14" kp="30"  user="1"/>
+        <position joint="wristRoll_Left" gear="1" ctrllimited="true" ctrlrange="-3.14 3.14" kp="30"  user="1"/>
+        <position ctrllimited="true" ctrlrange="0.021 0.065" joint="vx300s_left/left_finger" kp="300"  user="1"/>
+        <position ctrllimited="true" ctrlrange="-0.065 -0.021" joint="vx300s_left/right_finger" kp="300"  user="1"/>
+
+        <position joint="shoulderPitch_Right" gear="1" ctrllimited="true" ctrlrange="-3.14 3.14" kp="250"  user="1"/>
+        <position joint="shoulderRoll_Right" gear="1" ctrllimited="true" ctrlrange="-3.14 3.14" kp="250"  user="1"/>
+        <position joint="shoulderYaw_Right" gear="1" ctrllimited="true" ctrlrange="-3.14 3.14" kp="70"  user="1"/>
+        <position joint="elbow_Right" gear="1" ctrllimited="true" ctrlrange="-3.14 3.14" kp="40"  user="1"/>
+        <position joint="wristYaw_Right" gear="1" ctrllimited="true" ctrlrange="-3.14 3.14" kp="30"  user="1"/>
+        <position joint="wristPitch_Right" gear="1" ctrllimited="true" ctrlrange="-3.14 3.14" kp="30"  user="1"/>
+        <position joint="wristRoll_Right" gear="1" ctrllimited="true" ctrlrange="-3.14 3.14" kp="30"  user="1"/>
+        <position ctrllimited="true" ctrlrange="0.021 0.065" joint="vx300s_right/left_finger" kp="300"  user="1"/>
+        <position ctrllimited="true" ctrlrange="-0.065 -0.021" joint="vx300s_right/right_finger" kp="300"  user="1"/>
+        <!-- 夹爪限位 -->
+
+        <velocity joint="shoulderPitch_Left"  kv="1.50"  user="1"/>
+        <velocity joint="shoulderRoll_Left"   kv="1.50"  user="1"/>
+        <velocity joint="shoulderYaw_Left"    kv="0.8"  user="1"/>
+        <velocity joint="elbow_Left"          kv="0.8"  user="1"/>
+        <velocity joint="wristYaw_Left"       kv="0.50"  user="1"/>
+        <velocity joint="wristPitch_Left"     kv="0.50"  user="1"/>
+        <velocity joint="wristRoll_Left"      kv="0.1"  user="1"/>
+        <velocity joint="shoulderPitch_Right" kv="1.50"  user="1"/>
+        <velocity joint="shoulderRoll_Right"  kv="1.50"  user="1"/>
+        <velocity joint="shoulderYaw_Right"   kv="0.8"  user="1"/>
+        <velocity joint="elbow_Right"         kv="0.8"  user="1"/>
+        <velocity joint="wristYaw_Right"      kv="0.50"  user="1"/>
+        <velocity joint="wristPitch_Right"    kv="0.50"  user="1"/>
+        <velocity joint="wristRoll_Right"     kv="0.1"  user="1"/>  
+        <velocity joint="vx300s_left/left_finger"    kv="4"  user="1"/>
+        <velocity joint="vx300s_left/right_finger"   kv="4"  user="1"/>
+        <velocity joint="vx300s_right/left_finger"   kv="4"  user="1"/>
+        <velocity joint="vx300s_right/right_finger"  kv="4"  user="1"/>
+ 
+    </actuator>
+ 
+
+    <keyframe>
+        <!-- <key qpos="0.25 0 0 -1.5 0 0 0  0.05 -0.05    
+                   0.25 0 0 1.5 0 0 0.0  0.05 -0.05  
+                    1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/> -->
+    </keyframe>
+
+
+</mujoco>

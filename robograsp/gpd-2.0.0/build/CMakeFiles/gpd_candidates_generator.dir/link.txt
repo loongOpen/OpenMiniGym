@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgpd_candidates_generator.a  CMakeFiles/gpd_candidates_generator.dir/src/gpd/candidate/candidates_generator.cpp.o
+/usr/bin/ranlib libgpd_candidates_generator.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgpd_image_geometry.a  CMakeFiles/gpd_image_geometry.dir/src/gpd/descriptor/image_geometry.cpp.o
+/usr/bin/ranlib libgpd_image_geometry.a

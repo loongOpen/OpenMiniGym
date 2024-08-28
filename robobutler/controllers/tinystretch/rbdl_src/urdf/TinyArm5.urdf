@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="TinyArm5">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="5.67665668086698E-05 5.7481121463871E-05 0.016495101936921"
+        rpy="0 0 0" />
+      <mass
+        value="0.175255854166969" />
+      <inertia
+        ixx="0.000113473604119262"
+        ixy="2.15770840908713E-08"
+        ixz="-2.02644071868361E-09"
+        iyy="0.000113774323270784"
+        iyz="2.31083728144712E-09"
+        izz="0.000215378901319545" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyArm5/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyArm5/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="L0">
+    <inertial>
+      <origin
+        xyz="-0.000154679609394084 -0.0544419089605039 0.0486651336416645"
+        rpy="0 0 0" />
+      <mass
+        value="0.393578531691823" />
+      <inertia
+        ixx="0.000529095562116782"
+        ixy="1.37721256721003E-07"
+        ixz="-9.40637833431154E-07"
+        iyy="0.000524431678643419"
+        iyz="5.56525565177224E-05"
+        izz="0.00057650054703667" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyArm5/meshes/L0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyArm5/meshes/L0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J0"
+    type="revolute">
+    <origin
+      xyz="0 0 -0.0045000000000001"
+      rpy="-3.14159265358979 0 2.33851316483266" />
+    <parent
+      link="base_link" />
+    <child
+      link="L0" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="L1">
+    <inertial>
+      <origin
+        xyz="0.00333080848115067 -0.0192779326794846 0.0948162354485482"
+        rpy="0 0 0" />
+      <mass
+        value="0.269201564855062" />
+      <inertia
+        ixx="0.00123596028793445"
+        ixy="-5.41849463165994E-09"
+        ixz="-2.2489568343485E-06"
+        iyy="0.00129551008425687"
+        iyz="5.53333204950538E-08"
+        izz="8.21510518694833E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyArm5/meshes/L1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyArm5/meshes/L1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J1"
+    type="revolute">
+    <origin
+      xyz="0 -0.0903061667452372 0.0621559021716564"
+      rpy="0 0 0" />
+    <parent
+      link="L0" />
+    <child
+      link="L1" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="L2">
+    <inertial>
+      <origin
+        xyz="0.00247778767159776 -0.01063098948116 0.161071247869009"
+        rpy="0 0 0" />
+      <mass
+        value="0.0866922806787982" />
+      <inertia
+        ixx="9.95502293774178E-05"
+        ixy="-2.40982003028242E-08"
+        ixz="6.24564480281951E-08"
+        iyy="0.000109842608591914"
+        iyz="-1.23525119498359E-09"
+        izz="1.43866110212399E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyArm5/meshes/L2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyArm5/meshes/L2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J2"
+    type="revolute">
+    <origin
+      xyz="0 -0.0389999999999993 0.28"
+      rpy="0 0 0" />
+    <parent
+      link="L1" />
+    <child
+      link="L2" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="L3">
+    <inertial>
+      <origin
+        xyz="-0.00876052256036332 0.0236964774414455 -0.0190639259182115"
+        rpy="0 0 0" />
+      <mass
+        value="0.0413788526579504" />
+      <inertia
+        ixx="4.93571010477101E-06"
+        ixy="1.35303448805262E-07"
+        ixz="-4.89748177706771E-07"
+        iyy="9.90877811338505E-06"
+        iyz="6.89047892347011E-07"
+        izz="9.68506351694962E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyArm5/meshes/L3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyArm5/meshes/L3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J3"
+    type="revolute">
+    <origin
+      xyz="-0.00740706396314211 -0.0187999999998622 0.280780509429823"
+      rpy="3.14159265358979 0 0.00691575036794202" />
+    <parent
+      link="L2" />
+    <child
+      link="L3" />
+    <axis
+      xyz="0.00691569524078095 -0.999976086293735 0" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="L4">
+    <inertial>
+      <origin
+        xyz="0.0494249306409447 -0.000824028868590121 -0.00457033327948105"
+        rpy="0 0 0" />
+      <mass
+        value="0.0862996069239487" />
+      <inertia
+        ixx="1.48861970143474E-05"
+        ixy="-1.03212501725314E-07"
+        ixz="-1.72477293737103E-08"
+        iyy="1.3883582142047E-05"
+        iyz="-2.19133482797782E-08"
+        izz="1.88235248220131E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyArm5/meshes/L4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://TinyArm5/meshes/L4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J4"
+    type="revolute">
+    <origin
+      xyz="0.000730922755596343 0.0297541584700776 -0.0383510343590133"
+      rpy="3.13467690322182 1.5707963267949 0" />
+    <parent
+      link="L3" />
+    <child
+      link="L4" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>
